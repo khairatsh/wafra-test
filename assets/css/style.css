@@ -1058,7 +1058,7 @@ footer {
   left: 0;
   right: 0;
   height: env(safe-area-inset-top, 28px); /* ارتفاع منطقة شريط الحالة في الجوال */
-  background-color: #FFFFFF; /* ضع هنا لون خلفية الهيدر لديك، مثلاً #FFFFFF أو لون البراند */
+  background-color: #111111; /* ضع هنا لون خلفية الهيدر لديك، مثلاً #FFFFFF أو لون البراند */
   z-index: 1001;
 }
 
