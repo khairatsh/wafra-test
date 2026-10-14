@@ -539,7 +539,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <h2 class="section-title">🛒 منتجات مقترحة لك</h2>
         <button id="view-all-products-btn" class="btn-text-link">عرض المزيد ⬅</button>
       </div>
-      <div class="card-grid" id="home-products-grid">
+      <div class="products-grid" id="home-products-grid">
     `;
 
     let displayedProductsCount = 0;
@@ -794,7 +794,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const storeBranchIds = storeBranches.map(b => b.branchId);
 
     const filteredProducts = searchProducts(data.products, currentSearchQuery);
-    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">الأسعار والمنتجات المتاحة بالمتجر</h2><div class="card-grid">`;
+    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">الأسعار والمنتجات المتاحة بالمتجر</h2><div class="products-grid">`;;
     let productCount = 0;
 
     filteredProducts.forEach(product => {
@@ -841,7 +841,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   function renderCategoryProducts() {
     const category = data.categories.find(c => c.categoryId === selectedCategoryId);
     const categoryProducts = data.products.filter(p => p.categoryId === selectedCategoryId);
-    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">منتجات فئة: ${category ? category.categoryNameAr : ''}</h2><div class="card-grid">`;
+    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">منتجات فئة: ${category ? category.categoryNameAr : ''}</h2><div class="products-grid">`;
     let productCount = 0;
 
     categoryProducts.forEach(product => {
@@ -1019,8 +1019,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     searchSectionWrapper.style.display = 'flex';
     const today = new Date().toISOString().split('T')[0];
     const activeOffers = data.offers.filter(o => o.endDate >= today);
-
-    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">🔥 أقوى العروض والتخفيضات المتاحة حالياً</h2><div class="card-grid">`;
+    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">🔥 أقوى العروض والتخفيضات المتاحة حالياً</h2><div class="products-grid">`;
+    
     let offerCount = 0;
 
     activeOffers.forEach(offer => {
@@ -1069,7 +1069,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   function renderAllProducts() {
     searchSectionWrapper.style.display = 'flex';
     const filteredProducts = searchProducts(data.products, currentSearchQuery);
-    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">🛒 جميع المنتجات والأسعار</h2><div class="card-grid">`;
+    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">🛒 جميع المنتجات والأسعار</h2><div class="products-grid">`;
     let productCount = 0;
 
     filteredProducts.forEach(product => {
