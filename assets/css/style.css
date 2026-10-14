@@ -37,7 +37,7 @@ header {
   align-items: center;
   border-bottom: 4px solid var(--wafra-red);
   position: sticky;
-  top: 0;
+  top: 28px;
   z-index: 100;
 }
 
