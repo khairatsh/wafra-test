@@ -1,0 +1,74 @@
+[
+  {
+    "priceId": "cow-meat-pieces",
+    "variantId": "cow-meat-1kg",
+    "branchId": "putcher-mashad-newdamietta",
+    "pricePiastres": 45000,
+    "observationDate": "2026-10-10",
+    "sourceAr": "مسح ميداني مباشر"
+  },
+  {
+    "priceId": "cow-meat-pieces",
+    "variantId": "cow-meat-1kg",
+    "branchId": "putchar-beefmarket-newdamietta",
+    "pricePiastres": 47500,
+    "observationDate": "2026-10-09",
+    "sourceAr": "تطبيق المتجر"
+  },
+  {
+    "priceId": "cow-meat-pieces",
+    "variantId": "cow-meat-1kg",
+    "branchId": "putcher-khaled-newdamietta",
+    "pricePiastres": 40000,
+    "observationDate": "2026-09-15",
+    "sourceAr": "مسح ميداني"
+  },
+  {
+    "priceId": "cow-meat-mafrom",
+    "variantId": "cow-meat-mafrom-1kg",
+    "branchId": "putcher-mashad-newdamietta",
+    "pricePiastres": 45000,
+    "observationDate": "2026-10-10",
+    "sourceAr": "مسح ميداني مباشر"
+  },
+  {
+    "priceId": "cow-meat-mafrom",
+    "variantId": "cow-meat-mafrom-1kg",
+    "branchId": "putchar-beefmarket-newdamietta",
+    "pricePiastres": 47500,
+    "observationDate": "2026-10-09",
+    "sourceAr": "تطبيق المتجر"
+  },
+  {
+    "priceId": "cow-meat-mafrom",
+    "variantId": "cow-meat-mafrom-1kg",
+    "branchId": "putcher-khaled-newdamietta",
+    "pricePiastres": 40000,
+    "observationDate": "2026-09-15",
+    "sourceAr": "مسح ميداني"
+  },
+  {
+    "priceId": "cow-meat-liver",
+    "variantId": "cow-meat-liver-1kg",
+    "branchId": "putcher-mashad-newdamietta",
+    "pricePiastres": 39000,
+    "observationDate": "2026-10-10",
+    "sourceAr": "مسح ميداني مباشر"
+  },
+  {
+    "priceId": "cow-meat-liver",
+    "variantId": "cow-meat-liver-1kg",
+    "branchId": "putchar-beefmarket-newdamietta",
+    "pricePiastres": 45000,
+    "observationDate": "2026-10-09",
+    "sourceAr": "تطبيق المتجر"
+  },
+  {
+    "priceId": "cow-meat-liver",
+    "variantId": "cow-meat-liver-1kg",
+    "branchId": "putcher-khaled-newdamietta",
+    "pricePiastres": 49000,
+    "observationDate": "2026-09-15",
+    "sourceAr": "مسح ميداني"
+  }
+]

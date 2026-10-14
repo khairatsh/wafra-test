@@ -1,0 +1,50 @@
+[
+  {
+    "productId": "cow-meat-pieces",
+    "productNameAr": "لحم بقري قطع",
+    "brandAr": "لحم بقري",
+    "categoryId": "cat_meat",
+    "imageUrl": "https://cdn.salla.sa/wdxRW/giijFYexDvtoKfedwF8UX1sBIatMlKUv6EfEzeQb.jpg",
+    "homeSuggested": true,
+    "variants": [
+      {
+        "variantId": "cow-meat-1kg",
+        "packageSize": 1,
+        "unit": "كجم",
+        "attributesAr": "طبق فوم"
+      }
+    ]
+  },
+  {
+    "productId": "cow-meat-mafrom",
+    "productNameAr": "لحم بقري مفروم",
+    "brandAr": "لحم بقري",
+    "categoryId": "cat_meat",
+    "imageUrl": "https://cdn.files.salla.network/other/1712684708/c95eb46b-ac16-4560-852a-896231ce6b03-original.webp",
+    "homeSuggested": true,
+    "variants": [
+      {
+        "variantId": "cow-meat-mafrom-1kg",
+        "packageSize": 1,
+        "unit": "كجم",
+        "attributesAr": "طبق فوم"
+      }
+    ]
+  },
+  {
+    "productId": "cow-meat-liver",
+    "productNameAr": "كبدة بقري",
+    "brandAr": "لحم بقري",
+    "categoryId": "cat_meat",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qH5sPXPrJe0OJj3mZEIDZc2iKBO4IRWEPoalD4Eskf1BdU4FgXoOSzw&s=10",
+    "homeSuggested": true,
+    "variants": [
+      {
+        "variantId": "cow-meat-liver-1kg",
+        "packageSize": 1,
+        "unit": "كجم",
+        "attributesAr": "طبق فوم"
+      }
+    ]
+  }
+]

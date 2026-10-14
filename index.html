@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>وفرة (Wafra) — مقارنة أسعار السلع في مصر</title>
+  <!-- أيقونة الموقع (Favicon) -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="description" content="تطبيق مستقل لمقارنة أسعار المنتجات الاستهلاكية بين المتاجر والفروع في مصر.">
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="assets/images/logo.svg" alt="شعار وفرة Wafra" class="site-logo">
+    </div>
+    
+    <!-- زر الموقع المضغوط في الهيدر -->
+    <div class="header-location-trigger" id="open-location-modal" title="تغيير موقعك">
+      <span class="pin-icon">📍</span>
+      <span id="current-location-label">اختر موقعك</span>
+      <span class="arrow-icon">▼</span>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="main-navbar">
+    <button id="nav-home-btn" class="nav-tab active">🏠 الرئيسية</button>
+    <button id="nav-stores-btn" class="nav-tab">🏬 جميع المتاجر</button>
+    
+    <!-- Categories Dropdown Menu -->
+    <div class="nav-dropdown" id="nav-category-dropdown">
+      <button id="nav-category-btn" class="nav-tab nav-dropdown-toggle">
+        📁 الفئات <span class="arrow-down">▼</span>
+      </button>
+      <div id="category-dropdown-menu" class="dropdown-menu">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+
+    <button id="nav-offers-btn" class="nav-tab">🏷️ العروض والتخفيضات</button>
+  </nav>
+
+  <main>
+    <!-- Store Header Bar / Back View Header -->
+    <div id="store-header-bar" class="store-header-bar" style="display: none;">
+      <button id="back-to-home-btn" class="btn-secondary">⬅️ العودة للرئيسية</button>
+      <h2 id="selected-store-title" style="margin: 0; font-size: 1.25rem; color: #111111;"></h2>
+    </div>
+
+    <!-- Product Comparison Header Bar -->
+    <div id="product-comparison-header" class="store-header-bar" style="display: none;">
+      <button id="back-from-comparison-btn" class="btn-secondary">⬅️ العودة</button>
+      <h2 id="comparison-product-title" style="margin: 0; font-size: 1.25rem; color: #111111;">مقارنة أسعار المنتج</h2>
+    </div>
+
+    <div id="search-section-wrapper" class="search-section" style="position: relative;">
+      <input type="text" id="search-input" class="search-input" placeholder="ابحث عن اسم المنتج، العلامة التجارية، أو الفئة...">
+      <button id="search-btn" class="btn-primary">بحث</button>
+      <!-- قائمة اقتراحات البحث المنسدلة -->
+      <div id="search-suggestions" class="search-suggestions-dropdown"></div>
+    </div>
+
+    <!-- Dynamic Main Content Container -->
+    <div id="dynamic-content-area">
+      <!-- يتم حقن المحتوى هنا بناءً على التبويب النشط -->
+    </div>
+  </main>
+
+  <footer>
+    <p>تطبيق وفرة (Wafra) — مقارنة الأسعار المستقلة. لا يتبع أي متجر تجاري ولا يقدم خدمات الدفع الإلكتروني أو التوصيل.</p>
+  </footer>
+
+  <!-- نافذة اختيار العنوان (Popup Modal) -->
+  <div id="location-modal" class="location-modal-overlay">
+    <div class="location-modal-content">
+      <div class="modal-header">
+        <h3>اختر موقعك لتخصيص العروض</h3>
+        <button id="close-location-modal" class="close-btn">&times;</button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="modal-gov-select">المحافظة</label>
+          <select id="modal-gov-select" class="modal-select">
+            <option value="" disabled selected>اختر المحافظة...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="modal-city-select">المدينة / المنطقة</label>
+          <select id="modal-city-select" class="modal-select" disabled>
+            <option value="" disabled selected>اختر المحافظة أولاً</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="confirm-location-btn" class="confirm-btn" disabled>تأكيد الاختيار</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./assets/js/data-loader.js"></script>
+  <script src="./assets/js/search.js"></script>
+  <script src="./assets/js/comparison.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

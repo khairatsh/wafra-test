@@ -1,0 +1,26 @@
+[
+  {
+    "branchId": "putcher-mashad-newdamietta",
+    "storeId": "putcher-mashad",
+    "branchNameAr": "الصعيدي القديم",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "منتصف الصعيدي القديم"
+  },
+  {
+    "branchId": "putchar-beefmarket-newdamietta",
+    "storeId": "putchar-beefmarket",
+    "branchNameAr": "المنطقة المركزية",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المنطقة المركزية"
+  },
+  {
+    "branchId": "putcher-khaled-newdamietta",
+    "storeId": "putcher-khaled",
+    "branchNameAr": "الصعيدي الجديد",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الصعيدي الجديد"
+  }
+]

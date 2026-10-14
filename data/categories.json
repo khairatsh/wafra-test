@@ -1,0 +1,6 @@
+[
+  { "categoryId": "cat_dairy", "categoryNameAr": "الألبان والأجبان" },
+  { "categoryId": "cat_grocery", "categoryNameAr": "المواد الغذائية الجافة" },
+  { "categoryId": "cat_beverages", "categoryNameAr": "المشروبات والعصائر" },
+  { "categoryId": "cat_meat", "categoryNameAr": "لحوم طازجة" }
+]
