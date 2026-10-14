@@ -391,7 +391,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     // 1. أ. المنتجات الممولة (Sponsored)
     const sponsoredOffers = data.offers.filter(o => {
       const isNotExpired = o.endDate >= today;
-      return isNotExpired && o.sponsored === true;
+      if (!isNotExpired || o.sponsored !== true) return false;
+
+      // 🌟 التحقق من النطاق الجغرافي للفرع بناءً على موقع المستخدم الحالي
+      const branch = data.branches.find(b => b.branchId === o.branchId);
+      if (!branch) return false;
+      if (currentLocation.governorateId && branch.governorateId !== currentLocation.governorateId) return false;
+      if (currentLocation.cityId && branch.cityId !== currentLocation.cityId) return false;
+
+      return true;
     });
 
     if (sponsoredOffers.length > 0) {
@@ -433,10 +441,18 @@ document.addEventListener('DOMContentLoaded', async () => {
       html += `</div></div>`;
     }
 
-    // 1. ب. العروض المميزة
+    // 1. ب. العروض المميزة (مع فلترة النطاق الجغرافي)
     const featuredOffers = data.offers.filter(o => {
       const isNotExpired = o.endDate >= today;
-      return isNotExpired && o.homeOfferDisplay === true;
+      if (!isNotExpired || o.homeOfferDisplay !== true) return false;
+
+      // التحقق من أن الفرع يقع في النطاق الجغرافي الحالي للمستخدم
+      const branch = data.branches.find(b => b.branchId === o.branchId);
+      if (!branch) return false;
+      if (currentLocation.governorateId && branch.governorateId !== currentLocation.governorateId) return false;
+      if (currentLocation.cityId && branch.cityId !== currentLocation.cityId) return false;
+
+      return true;
     });
 
     if (featuredOffers.length > 0) {
