@@ -950,11 +950,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     let categoryStores = data.stores.filter(s => s.categoryId === selectedCategoryIdForStores && activeStoreIds.includes(s.storeId));
 
     let html = `
-      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
-        <h2 class="section-title" style="margin: 0;">🏬 متاجر فئة: ${category ? category.categoryNameAr : ''}</h2>
-        <button id="back-to-stores-main" class="btn-secondary" style="font-size: 0.85rem; padding: 0.4rem 0.8rem;">⬅️ العودة لجميع المتاجر</button>
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.25rem;">
+        <h2 class="section-title" style="margin: 0; font-size: 1.2rem;">🏬 متاجر فئة: ${category ? category.categoryNameAr : ''}</h2>
+        <button id="back-to-stores-main" class="btn-secondary" style="font-size: 0.8rem; padding: 0.35rem 0.7rem;">⬅️ العودة</button>
       </div>
-      <div class="card-grid">
+      <div class="category-stores-grid">
     `;
 
     if (categoryStores.length === 0) {
@@ -963,15 +963,15 @@ document.addEventListener('DOMContentLoaded', async () => {
       categoryStores.forEach(store => {
         const storeBranches = validBranches.filter(b => b.storeId === store.storeId);
         const imageHtml = store.imageUrl 
-          ? `<div class="store-image-container" style="aspect-ratio: 4/3;"><img src="${store.imageUrl}" alt="${store.storeNameAr}" loading="lazy"></div>`
-          : `<div class="store-image-container" style="aspect-ratio: 4/3;"><span class="image-placeholder">📷</span></div>`;
+          ? `<div class="store-image-container"><img src="${store.imageUrl}" alt="${store.storeNameAr}" loading="lazy"></div>`
+          : `<div class="store-image-container" style="display:flex; align-items:center; justify-content:center;"><span class="image-placeholder">📷</span></div>`;
 
         html += `
-          <div class="store-card store-card-click" data-store-id="${store.storeId}" style="cursor: pointer;">
+          <div class="compact-store-card store-card-click" data-store-id="${store.storeId}">
             ${imageHtml}
-            <h4 style="font-size: 1.05rem; font-weight: 700; margin: 0.5rem 0 0.25rem 0; color: #111;">🏬 ${store.storeNameAr}</h4>
-            <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 0.75rem;">الفروع المتاحة: ${storeBranches.length} فرع</p>
-            <button class="btn-primary" style="margin-top: auto; width: 100%; font-size: 0.85rem; padding: 0.5rem;">تصفح المنتجات</button>
+            <h4>🏬 ${store.storeNameAr}</h4>
+            <p>الفروع: ${storeBranches.length} فرع</p>
+            <button class="btn-primary">تصفح المنتجات</button>
           </div>
         `;
       });
