@@ -1142,3 +1142,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderApp();
 });
 
+
+// إخفاء شاشة التحميل عند اكتمال تحميل الصفحة والبيانات
+window.addEventListener('load', () => {
+  const loader = document.getElementById('app-loader');
+  if (loader) {
+    setTimeout(() => {
+      loader.classList.add('fade-out');
+      setTimeout(() => {
+        loader.style.display = 'none';
+      }, 400); 
+    }, 300);
+  }
+});
