@@ -1050,3 +1050,22 @@ footer {
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* 1. خلفية علوية بلون الهيدر أو البراند تغطي منطقة شريط الحالة للنظام */
+.status-bar-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: env(safe-area-inset-top, 28px); /* ارتفاع منطقة شريط الحالة في الجوال */
+  background-color: #FFFFFF; /* ضع هنا لون خلفية الهيدر لديك، مثلاً #FFFFFF أو لون البراند */
+  z-index: 1001;
+}
+
+/* 2. تعديل الهيدر لكي ينزل تحت منطقة شريط الحالة تماماً ولا يتداخل مع الساعة */
+header.app-header {
+  position: sticky;
+  top: env(safe-area-inset-top, 28px); /* إزاحة الهيدر لأسفل بمقدار ارتفاع شريط الحالة */
+  z-index: 1000;
+  /* ... باقي خصائص الهيدر القديمة لديك مثل background, padding, display ... */
+}
