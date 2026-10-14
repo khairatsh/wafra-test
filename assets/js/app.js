@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   let previousTabBeforeComparison = 'home';
   let currentLocation = { governorateId: '', cityId: '' };
   let currentSearchQuery = '';
+  let selectedCategoryIdForStores = null;
+  
 
   // Elements
   const navHomeBtn = document.getElementById('nav-home-btn');
@@ -320,6 +322,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       renderHomePage();
     } else if (currentTab === 'all-stores') {
       renderAllStores();
+    } else if (currentTab === 'category-stores') { // 🌟 أضف هذا السطر
+      renderCategoryStores();
     } else if (currentTab === 'store-products') {
       renderStoreProducts();
     } else if (currentTab === 'category-products') {
@@ -668,12 +672,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   function renderAllStores() {
     searchSectionWrapper.style.display = 'flex';
-    let html = `<h2 class="section-title" style="margin-bottom: 1rem;">🏬 جميع المتاجر المتاحة</h2><div class="card-grid">`;
-
+    
+    // 1. الفروع المتاحة حسب النطاق الجغرافي
     const validBranches = data.branches.filter(b => {
       if (currentLocation.governorateId && b.governorateId !== currentLocation.governorateId) return false;
       if (currentLocation.cityId && b.cityId !== currentLocation.cityId) return false;
-      if (currentLocation.areaId && b.areaId !== currentLocation.areaId) return false;
       return true;
     });
 
@@ -681,32 +684,86 @@ document.addEventListener('DOMContentLoaded', async () => {
     let storesToDisplay = data.stores.filter(s => activeStoreIds.includes(s.storeId));
 
     if (currentSearchQuery.trim()) {
-      storesToDisplay = storesToDisplay.filter(s => s.storeNameAr.toLowerCase().includes(currentSearchQuery.toLowerCase().trim()));
+      const q = normalizeArabic(currentSearchQuery.toLowerCase().trim());
+      storesToDisplay = storesToDisplay.filter(s => normalizeArabic(s.storeNameAr).includes(q));
     }
 
-    storesToDisplay.forEach(store => {
-      const storeBranches = validBranches.filter(b => b.storeId === store.storeId);
-      const imageHtml = store.imageUrl 
-        ? `<div class="store-image-container" style="aspect-ratio:3/4;"><img src="${store.imageUrl}" alt="${store.storeNameAr}" loading="lazy"></div>`
-        : `<div class="store-image-container" style="aspect-ratio:3/4;"><span class="image-placeholder">📷</span></div>`;
+    if (storesToDisplay.length === 0) {
+      dynamicContentArea.innerHTML = `<div style="text-align: center; padding: 3rem; color: #6B7280;"><h3>لا توجد متاجر متاحة في هذا النطاق أو مطابقة للبحث.</h3></div>`;
+      return;
+    }
 
-      html += `
-        <div class="store-card store-card-click" data-store-id="${store.storeId}" style="cursor: pointer;">
-          ${imageHtml}
-          <h3>🏬 ${store.storeNameAr}</h3>
-          <p>الفروع المتاحة في نطاقك: ${storeBranches.length} فرع</p>
-          <button class="btn-primary" style="margin-top: 1rem; width: 100%;">تصفح المنتجات</button>
-        </div>
-      `;
+    let html = `<h2 class="section-title" style="margin-bottom: 1.5rem;">🏬 المتاجر حسب التصنيفات</h2>`;
+
+    // 2. المرور على كل فئة
+    data.categories.forEach(category => {
+      // كل المتاجر الخاصة بهذه الفئة (بغض النظر عن true أو false لحساب الإجمالي وزر المزيد)
+      const allCategoryStores = storesToDisplay.filter(s => s.categoryId === category.categoryId);
+
+      if (allCategoryStores.length > 0) {
+        // المتاجر التي تحمل true فقط لعرضها في السطر الأفقي
+        let featuredStores = allCategoryStores.filter(s => s.featuredInCat === true);
+        
+        // لو لم يحدد المستخدم أي متجر كـ true، نأخذ أول 5 متاجر كافتراضي لتجنب اختفاء الفئة بالكامل
+        if (featuredStores.length === 0) {
+          featuredStores = allCategoryStores.slice(0, 5);
+        }
+
+        // أخذ أول 5 متاجر فقط للسطر الأفقي
+        const displayStores = featuredStores.slice(0, 5);
+        
+        // هل يوجد عدد إجمالي للمتاجر في هذه الفئة أكبر من ما يتم عرضه أفقياً؟
+        const hasMore = allCategoryStores.length > displayStores.length;
+
+        html += `
+          <div class="category-row-section" style="margin-bottom: 2.5rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #E5E7EB; padding-bottom: 0.5rem; margin-bottom: 1rem;">
+              <h3 style="font-size: 1.2rem; font-weight: 700; color: #111827; margin: 0;">📁 ${category.categoryNameAr}</h3>
+              ${hasMore ? `<button class="btn-text-link view-more-category-btn" data-category-id="${category.categoryId}" style="font-size: 0.85rem; font-weight: 600; color: #E31B23; background:none; border:none; cursor:pointer;">عرض المزيد (${allCategoryStores.length}) ⬅</button>` : ''}
+            </div>
+            
+            <div class="category-row-container">
+        `;
+
+        displayStores.forEach(store => {
+          const storeBranches = validBranches.filter(b => b.storeId === store.storeId);
+          const imageHtml = store.imageUrl 
+            ? `<div class="store-image-container" style="aspect-ratio: 4/3; border-radius: 8px; overflow: hidden; margin-bottom: 0.5rem;"><img src="${store.imageUrl}" alt="${store.storeNameAr}" loading="lazy" style="width:100%; height:100%; object-fit:cover;"></div>`
+            : `<div class="store-image-container" style="aspect-ratio: 4/3; background:#F3F4F6; border-radius: 8px; display:flex; align-items:center; justify-content:center; margin-bottom: 0.5rem;"><span class="image-placeholder">📷</span></div>`;
+
+          html += `
+            <div class="category-row-card store-card-click" data-store-id="${store.storeId}">
+              ${imageHtml}
+              <h4 style="font-size: 0.95rem; font-weight: 700; margin: 0 0 0.2rem 0; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">${store.storeNameAr}</h4>
+              <p style="font-size: 0.75rem; color: #6B7280; margin: 0 0 0.5rem 0;">${storeBranches.length} فرع متاح</p>
+              <span style="font-size: 0.75rem; color: #E31B23; font-weight: 600; margin-top: auto;">تصفح المنتجات ⬅</span>
+            </div>
+          `;
+        });
+
+        html += `</div></div>`;
+      }
     });
 
-    html += `</div>`;
     dynamicContentArea.innerHTML = html;
 
+    // ربط أحداث النقر على المتاجر
     document.querySelectorAll('.store-card-click').forEach(card => {
       card.addEventListener('click', () => {
         selectedStoreId = card.getAttribute('data-store-id');
         currentTab = 'store-products';
+        renderApp();
+      });
+    });
+
+    // زر "عرض المزيد" ينقل المستخدم إلى صفحة منتجات/متاجر الفئة لعرض الكل
+    // زر "عرض المزيد" للفئة (يعرض جميع متاجر هذه الفئة حصرياً)
+    document.querySelectorAll('.view-more-category-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const catId = btn.getAttribute('data-category-id');
+        selectedCategoryIdForStores = catId; // تخزين الفئة المطلوبة للمتاجر
+        currentTab = 'category-stores'; // الانتقال لتبويب عرض متاجر الفئة
         renderApp();
       });
     });
@@ -876,6 +933,72 @@ document.addEventListener('DOMContentLoaded', async () => {
     dynamicContentArea.innerHTML = html;
   }
 
+  function renderCategoryStores() {
+    searchSectionWrapper.style.display = 'flex';
+    const category = data.categories.find(c => c.categoryId === selectedCategoryIdForStores);
+    
+    // الفروع المتاحة في النطاق الجغرافي للمستخدم
+    const validBranches = data.branches.filter(b => {
+      if (currentLocation.governorateId && b.governorateId !== currentLocation.governorateId) return false;
+      if (currentLocation.cityId && b.cityId !== currentLocation.cityId) return false;
+      return true;
+    });
+
+    const activeStoreIds = [...new Set(validBranches.map(b => b.storeId))];
+    
+    // تصفية متاجر هذه الفئة فقط والتي تمتلك فروعاً نشطة في النطاق
+    let categoryStores = data.stores.filter(s => s.categoryId === selectedCategoryIdForStores && activeStoreIds.includes(s.storeId));
+
+    let html = `
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem;">
+        <h2 class="section-title" style="margin: 0;">🏬 متاجر فئة: ${category ? category.categoryNameAr : ''}</h2>
+        <button id="back-to-stores-main" class="btn-secondary" style="font-size: 0.85rem; padding: 0.4rem 0.8rem;">⬅️ العودة لجميع المتاجر</button>
+      </div>
+      <div class="card-grid">
+    `;
+
+    if (categoryStores.length === 0) {
+      html += `<div style="grid-column: 1 / -1; text-align: center; padding: 3rem; color: #6B7280;"><h3>لا توجد متاجر متاحة لهذه الفئة في نطاقك الجغرافي حالياً.</h3></div>`;
+    } else {
+      categoryStores.forEach(store => {
+        const storeBranches = validBranches.filter(b => b.storeId === store.storeId);
+        const imageHtml = store.imageUrl 
+          ? `<div class="store-image-container" style="aspect-ratio: 4/3;"><img src="${store.imageUrl}" alt="${store.storeNameAr}" loading="lazy"></div>`
+          : `<div class="store-image-container" style="aspect-ratio: 4/3;"><span class="image-placeholder">📷</span></div>`;
+
+        html += `
+          <div class="store-card store-card-click" data-store-id="${store.storeId}" style="cursor: pointer;">
+            ${imageHtml}
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin: 0.5rem 0 0.25rem 0; color: #111;">🏬 ${store.storeNameAr}</h4>
+            <p style="font-size: 0.85rem; color: #6B7280; margin-bottom: 0.75rem;">الفروع المتاحة: ${storeBranches.length} فرع</p>
+            <button class="btn-primary" style="margin-top: auto; width: 100%; font-size: 0.85rem; padding: 0.5rem;">تصفح المنتجات</button>
+          </div>
+        `;
+      });
+    }
+
+    html += `</div>`;
+    dynamicContentArea.innerHTML = html;
+
+    // ربط زر العودة لصفحة المتاجر الرئيسية
+    const backBtn = document.getElementById('back-to-stores-main');
+    if (backBtn) {
+      backBtn.addEventListener('click', () => {
+        currentTab = 'all-stores';
+        renderApp();
+      });
+    }
+
+    // ربط النقر على المتجر لفتح منتجاته
+    document.querySelectorAll('.store-card-click').forEach(card => {
+      card.addEventListener('click', () => {
+        selectedStoreId = card.getAttribute('data-store-id');
+        currentTab = 'store-products';
+        renderApp();
+      });
+    });
+  }
+
   function renderOffers() {
     searchSectionWrapper.style.display = 'flex';
     const today = new Date().toISOString().split('T')[0];
@@ -1002,3 +1125,4 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   renderApp();
 });
+

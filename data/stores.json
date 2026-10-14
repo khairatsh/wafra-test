@@ -4,6 +4,8 @@
     "storeNameAr": "جزارة المشد",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXU1-RHb-KXuZC1x8MsTOyAIRSecYVLmq_b4f_TuptEA&s=10",
     "homeScreenDisplay": false,
+    "categoryId": "cat_meat",
+    "featuredInCat": true,
     "tasneef": "جزارة"
   },
   {
@@ -11,6 +13,8 @@
     "storeNameAr": "بيف ماركت",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFVNpSnlfjd51k45UQGB9eteM8FPDNnp1VM0LUF_rnA&s=10",
     "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true,
     "tasneef": "جزارة"
   },
   {
@@ -18,6 +22,8 @@
     "storeNameAr": "جزارة خالد",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbL0Up-TbX9FR6aQ-73xeSdXNq_uzXleFniun9jnlMXP78bEXemMPwu1wa&s=10",
     "homeScreenDisplay": false,
+    "categoryId": "cat_meat",
+    "featuredInCat": false,
     "tasneef": "جزارة"
   }
 ]
