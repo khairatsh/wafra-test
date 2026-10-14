@@ -18,6 +18,8 @@
 }
 
 body {
+  padding-top: 28px;
+  margin: 0;
   font-family: 'IBM Plex Sans Arabic', Tahoma, Arial, sans-serif;
   direction: rtl;
   text-align: right;
