@@ -583,8 +583,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </p>
                   </div>
                   <div class="meta-info">
-                    <div>📅 تاريخ الرصد: ${bestPrice.observationDate}</div>
-                    <div>🔍 اضغط لمقارنة الأسعار</div>
+                    <div>📅 ${bestPrice.observationDate}</div>
+                    <div>🔍 قارن الأسعار</div>
                   </div>
                 </div>
               `;
@@ -824,8 +824,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <p style="font-size: 0.85rem; font-weight: 600; color: #111111;">📍 ${branch ? branch.branchNameAr : ''}</p>
               </div>
               <div class="meta-info">
-                <div>📅 تاريخ الرصد: ${bestPrice.observationDate}</div>
-                <div>🔍 اضغط لمقارنة السعر عبر المتاجر</div>
+                <div>📅 ${bestPrice.observationDate}</div>
+                <div>🔍 قارن الأسعار</div>
               </div>
             </div>
           `;
@@ -883,8 +883,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </p>
               </div>
               <div class="meta-info">
-                <div>📅 تاريخ الرصد: ${bestPrice.observationDate}</div>
-                <div>🔍 اضغط لمقارنة الأسعار</div>
+                <div>📅 ${bestPrice.observationDate}</div>
+                <div>🔍 قارن الأسعار</div>
               </div>
             </div>
           `;
@@ -940,7 +940,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           </div>
           <div class="price-info-side">
             <div class="price-tag">${formatPiastres(priceItem.pricePiastres)}</div>
-            <p style="font-size: 0.8rem; color: #6B7280;">📅 رصد بتاريخ: ${priceItem.observationDate}</p>
+            <p style="font-size: 0.8rem; color: #6B7280;">📅 ${priceItem.observationDate}</p>
           </div>
         </div>
       `;
