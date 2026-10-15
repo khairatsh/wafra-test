@@ -1,26 +1,98 @@
 [
   {
-    "branchId": "putcher-mashad-newdamietta",
-    "storeId": "putcher-mashad",
-    "branchNameAr": "الصعيدي القديم",
+    "branchId": "putchar-beefmarket-damietta",
+    "storeId": "putchar-beefmarket",
+    "branchNameAr": "بيف ماركت",
     "governorateId": "gov_damietta",
-    "cityId": "city_newdamietta",
-    "addressAr": "منتصف الصعيدي القديم"
+    "cityId": "city_damietta",
+    "addressAr": "شارع عبدالعظيم وزير"
   },
   {
     "branchId": "putchar-beefmarket-newdamietta",
     "storeId": "putchar-beefmarket",
-    "branchNameAr": "المنطقة المركزية",
+    "branchNameAr": "بيف ماركت",
     "governorateId": "gov_damietta",
     "cityId": "city_newdamietta",
     "addressAr": "المنطقة المركزية"
   },
   {
-    "branchId": "putcher-khaled-newdamietta",
-    "storeId": "putcher-khaled",
-    "branchNameAr": "الصعيدي الجديد",
+    "branchId": "putcher-onset-newdamietta",
+    "storeId": "putcher-onset",
+    "branchNameAr": "جزارة أونست",
     "governorateId": "gov_damietta",
     "cityId": "city_newdamietta",
-    "addressAr": "الصعيدي الجديد"
+    "addressAr": "لمركزيه خلف حلواني الجمل"
+  },
+  {
+    "branchId": "putcher-abu-ali-newdamietta",
+    "storeId": "putcher-abu-ali",
+    "branchNameAr": "جزارة أبو على",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المركزية أمام المجمع الإسلامي"
+  },
+  {
+    "branchId": "putcher-megahed-basha-newdamietta",
+    "storeId": "putcher-megahed-basha",
+    "branchNameAr": "جزارة مجاهد باشا",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "منتصف شارع الصحبجية أمام كافيه سيدار"
+  },
+  {
+    "branchId": "poultary-abu-fady-newdamietta",
+    "storeId": "poultary-abu-fady",
+    "branchNameAr": "أبو فادي للدواجن والمشويات",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المجاورة السادسه الحي التاني"
+  },
+  {
+    "branchId": "poultary-etewy2-newdamietta",
+    "storeId": "poultary-etewy2",
+    "branchNameAr": "العطيوي2 للدواجن الحيه والمجمده",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الثاني سوق المجاوره الخامسه"
+  },
+  {
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "storeId": "fish-ala-elbahr",
+    "branchNameAr": "على البحر للأسماك و المأكولات البحرية",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "آخر شارع المحجوب بجوار فتح الله هايبر ماركت"
+  },
+  {
+    "branchId": "fish-elkhedewy-newdamietta",
+    "storeId": "fish-elkhedewy",
+    "branchNameAr": "أسمالك الخديوي",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": " الحي الرابع _ شارع المرور"
+  },
+  {
+    "branchId": "fish-uncle-samy-newdamietta",
+    "storeId": "fish-uncle-samy",
+    "branchNameAr": "عمو سامي",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "دمياط الجديدة"
+  },
+  {
+    "branchId": "pharmacy-zahraa-gdeda-newdamietta",
+    "storeId": "pharmacy-zahraa-gdeda",
+    "branchNameAr": "صيدلية الزهراء الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "شارع حسب الله الكفراوي بجوار كنتاكي"
+  },
+  {
+    "branchId": "pharmacy-hossam-moussa-newdamietta",
+    "storeId": "pharmacy-hossam-moussa",
+    "branchNameAr": "صيدليات د.حسام موسى",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "دمياط الجديدة"
   }
 ]

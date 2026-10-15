@@ -7,7 +7,7 @@
     "startDate": "2026-10-01",
     "endDate": "2026-10-30",
     "conditionAr": "عرض خاص",
-    "homeOfferDisplay": true, 
+    "homeOfferDisplay": false, 
     "sponsored": false          
   },
   {
@@ -18,7 +18,7 @@
     "startDate": "2026-10-01",
     "endDate": "2026-10-30",
     "conditionAr": "عرض خاص",
-    "homeOfferDisplay": true, 
-    "sponsored": true          
+    "homeOfferDisplay": false, 
+    "sponsored": false          
   }
 ]

@@ -1,6 +1,6 @@
 [
-  { "categoryId": "cat_dairy", "categoryNameAr": "الألبان والأجبان" },
-  { "categoryId": "cat_grocery", "categoryNameAr": "المواد الغذائية الجافة" },
-  { "categoryId": "cat_beverages", "categoryNameAr": "المشروبات والعصائر" },
-  { "categoryId": "cat_meat", "categoryNameAr": "لحوم طازجة" }
+  { "categoryId": "cat_meat", "categoryNameAr": "لحوم طازجة" },
+  { "categoryId": "cat_poultary", "categoryNameAr": "دواجن طازجة" },
+  { "categoryId": "cat_fish", "categoryNameAr": "أسماك طازجة" },
+  { "categoryId": "cat_pharmacy", "categoryNameAr": "مستلزمات الصيدليات" }
 ]

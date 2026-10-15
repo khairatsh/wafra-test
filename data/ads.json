@@ -1,29 +1,28 @@
 [
   {
     "adId": "ad_001",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiL3RV4tURM36z5lEDVQoeavK0e1HZylv4QijbJYhrVQ&s=10",
-    "titleAr": "عروض خاصة من جزارة المشد",
-    "ctaTextAr": "تصفح المتجر",
-    "targetType": "store",      
-    "targetValue": "putcher-mashad",
-    "cityId": "city_newdamietta"
-  },
-  {
-    "adId": "ad_002",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl0qIycqucrD1lp_WrgZktf2Zo0dDKF7CjAwv6WcL7eQ&s=10",
-    "titleAr": "اسواق فتح الله الان في دمياط",
+    "imageUrl": "https://iili.io/nhuW1Nn.png",
+    "titleAr": "وفرة ... أقوى عروض في مصر",
     "ctaTextAr": "اعرف المزيد",
     "targetType": "external",    
-    "targetValue": "https://google.com",
+    "targetValue": "https://khairatsh.github.io/wafra-test/",
+    "scope": "all"
+  },{
+    "adId": "ad_002",
+    "imageUrl": "https://iili.io/nhuWl9t.png",
+    "titleAr": "قارن الأسعار",
+    "ctaTextAr": "اعرف المزيد",
+    "targetType": "external",    
+    "targetValue": "https://khairatsh.github.io/wafra-test/",
     "governorateId": "gov_damietta"
   },
   {
     "adId": "ad_003",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgsoI9vjeN7dAhc-aM4b0XI8Q5EC6BElJQVGz_Ia-ZfQ&s=10",
-    "titleAr": "بندة ... أقوى عروض في مصر",
-    "ctaTextAr": "اعرف المزيد",
-    "targetType": "external",    
-    "targetValue": "https://google.com",
-    "scope": "all"
-  }
+    "imageUrl": "https://iili.io/nhuWaSI.png",
+    "titleAr": "في كل مكان",
+    "ctaTextAr": "تصفح المتجر",
+    "targetType": "store",      
+    "targetValue": "putcher-mashad",
+    "cityId": "city_newdamietta"
+  } 
 ]
