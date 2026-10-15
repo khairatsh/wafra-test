@@ -1152,6 +1152,6 @@ window.addEventListener('load', () => {
       setTimeout(() => {
         loader.style.display = 'none';
       }, 400); 
-    }, 300);
+    }, 3000);
   }
 });

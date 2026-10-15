@@ -5,7 +5,7 @@
     "brandAr": "لحم بقري",
     "categoryId": "cat_meat",
     "imageUrl": "https://cdn.salla.sa/wdxRW/giijFYexDvtoKfedwF8UX1sBIatMlKUv6EfEzeQb.jpg",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "cow-meat-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -14,7 +14,7 @@
     "brandAr": "لحم بقري",
     "categoryId": "cat_meat",
     "imageUrl": "https://cdn.files.salla.network/other/1712684708/c95eb46b-ac16-4560-852a-896231ce6b03-original.webp",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "cow-meat-mafrom-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -23,7 +23,7 @@
     "brandAr": "لحم بقري",
     "categoryId": "cat_meat",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5qH5sPXPrJe0OJj3mZEIDZc2iKBO4IRWEPoalD4Eskf1BdU4FgXoOSzw&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "cow-meat-liver-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -32,7 +32,7 @@
     "brandAr": "لحم بقري",
     "categoryId": "cat_meat",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ0zATrfggDjEl11stZuv-UF1FNqtKBIhkGx_dYckE0hNlR864wuDh93Ul&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "cow-meat-sussage-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -41,7 +41,7 @@
     "brandAr": "فراخ بيضاء",
     "categoryId": "cat_poultary",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDbLnySVXQG741FybeAlg5wKFCqgzlk2BYNDzlNXihP2f7DKlRhHf2gsg&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "white-chicken-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -50,7 +50,7 @@
     "brandAr": "فراخ جمراء",
     "categoryId": "cat_poultary",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0H_-QgjtK2p8-GsPDOdiQym9J_FbBJfAaYdVyi4FU5t96BYaiRQy67JyJ&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "red-chicken-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -59,7 +59,7 @@
     "brandAr": "أوراك فريش",
     "categoryId": "cat_poultary",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb7w1iANWsLa7YRxkzPJYph5AtPZvNdjmhn5MrUGRL-xO4xNtzbbAbZSzU&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "chicken-legs-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -68,7 +68,7 @@
     "brandAr": "صدور فريش",
     "categoryId": "cat_poultary",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI05Lq9LrUFfVFmSQWhLP4WPY670M6S61vzNEP_iK3BcxJHzFUn3M0bzn&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "chicken-breasts-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -77,7 +77,7 @@
     "brandAr": "كبد دجاج فريش",
     "categoryId": "cat_poultary",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLG7pGKl-YwWgB-8fJxsrIIdpkQWmbxBb7XAgpdh2gW6zUnaalkDFvKVaW&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "chicken-liver-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -86,7 +86,7 @@
     "brandAr": "قوانص دجاج فريش",
     "categoryId": "cat_poultary",
     "imageUrl": "https://media.gemini.media/img/large/2020/2/22/2020_2_22_20_24_4_236.jpg",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "chicken-kidney-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -95,7 +95,7 @@
     "brandAr": "بلطي (شبار)",
     "categoryId": "cat_fish",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq8A5-5DkX0j_EWdWrsXzkySsZmpoPMCdfIl6Kf3xZXGAVXVGx9D77j-k&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "fish-bolti-normal-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -140,7 +140,7 @@
     "brandAr": "بوري",
     "categoryId": "cat_fish",
     "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h61/h86/12368430137374/5302_main.jpg",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "fish-bori-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -149,7 +149,7 @@
     "brandAr": "ماكريل",
     "categoryId": "cat_fish",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR55-oYmVJ8J22o819hs384adsmIhboc32q5b0juOZT798tg9G418YZ_WBK&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "fish-macrel-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -158,7 +158,7 @@
     "brandAr": "سهيلي",
     "categoryId": "cat_fish",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxUgqx-Q-jbAzKiMPywMIa7CAr43fYqQFsKbWBSZYqA7Or1kTQlF72SCdi&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "fish-seheli-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -167,7 +167,7 @@
     "brandAr": "باربوني",
     "categoryId": "cat_fish",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1EnAFnFxDv7LHVZXAqn3bf5A1sVT8AC4eOA25RXxFSLQiN8YrifF3PQ&s=10",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "fish-barboni-1kg", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   },
   {
@@ -176,7 +176,7 @@
     "brandAr": "جمبري",
     "categoryId": "cat_fish",
     "imageUrl": "https://sevenfoods.store/storage/products/gmbry-amaraty-1-400x400.jpg",
-    "homeSuggested": false,
+    "homeSuggested": true,
     "variants": [{"variantId": "fish-gambari-1k", "packageSize": 1, "unit": "كجم", "attributesAr": " "}]
   }
 ]

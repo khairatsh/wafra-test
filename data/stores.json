@@ -5,34 +5,34 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpFLnN0bjXW85Y_tfPsFpo5hFfCRgYjDBWHt4c55SOpq424yzEFsR-zot&s=10",
     "homeScreenDisplay": true,
     "categoryId": "cat_meat",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "جزارة"
   },
   {
     "storeId": "putchar-beefmarket",
     "storeNameAr": "بيف ماركت",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFVNpSnlfjd51k45UQGB9eteM8FPDNnp1VM0LUF_rnA&s=10",
-    "homeScreenDisplay": false,
+    "homeScreenDisplay": true,
     "categoryId": "cat_meat",
     "featuredInCat": true,
     "tasneef": "جزارة"
   },
   {
     "storeId": "putcher-abu-ali",
-    "storeNameAr": "جزارة خالد",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbL0Up-TbX9FR6aQ-73xeSdXNq_uzXleFniun9jnlMXP78bEXemMPwu1wa&s=10",
-    "homeScreenDisplay": false,
+    "storeNameAr": "جزارة أبوعلي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzhfyZmEaijYD6j0fPrRihT49R72Fd5X2-detRe10gw&s=10",
+    "homeScreenDisplay": true,
     "categoryId": "cat_meat",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "جزارة"
   },
   {
     "storeId": "putcher-megahed-basha",
     "storeNameAr": "جزارة مجاهد باشا",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYEIakn9sbbaVg5q5pteyda3Qm7nARo97QffLkqiNqyQ&s=10",
-    "homeScreenDisplay": false,
+    "homeScreenDisplay": true,
     "categoryId": "cat_meat",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "جزارة"
   },
   {
@@ -41,14 +41,14 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KKg4yR7Ku-Vumr67aP2s3RRwExwV0Cm6N9oF8Z66YvasmOXKugmB-rI&s=10",
     "homeScreenDisplay": true,
     "categoryId": "cat_poultary",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "دواجن"
   },
   {
     "storeId": "poultary-etewy2",
     "storeNameAr": "العطيوي2 للدواجن الحيه والمجمده",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc5kJg48Qzi_OPIUWJelmvgxl03O-BVCwJDAywoF6bxAAkizPrr9fkapY&s=10",
-    "homeScreenDisplay": false,
+    "homeScreenDisplay": true,
     "categoryId": "cat_poultary",
     "featuredInCat": true,
     "tasneef": "دواجن"
@@ -59,14 +59,14 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRB3q2wgqPSw3fILsjzjd9zLzriYDaOjA0DonGy0kzrHdlCHfqCzbG4RV&s=10",
     "homeScreenDisplay": true,
     "categoryId": "cat_fish",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "أسماك"
   },
   {
     "storeId": "fish-elkhedewy",
-    "storeNameAr": "أسمالك الخديوي",
+    "storeNameAr": "أسماك الخديوي",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQSF06xqH0uf8AfAbTPxjG7qmkeAjuGSxrZ7HL560tQgrBIxUYeiIQLbtw&s=10",
-    "homeScreenDisplay": false,
+    "homeScreenDisplay": true,
     "categoryId": "cat_fish",
     "featuredInCat": true,
     "tasneef": "أسماك"
@@ -75,16 +75,16 @@
     "storeId": "fish-uncle-samy",
     "storeNameAr": "عمو سامي",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRREy6bgpt165-qcD27t95OR5BHarIC7pasyXlOPP8AxvoEVNlNYQ05-tHI&s=10",
-    "homeScreenDisplay": false,
+    "homeScreenDisplay": true,
     "categoryId": "cat_fish",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "أسماك"
   },
   {
     "storeId": "pharmacy-zahraa-gdeda",
     "storeNameAr": "صيدلية الزهراء الجديدة",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP1K6GbQl6m4PNlemJ_q8cjP5BKmsRWVnWLBJqEb77cNE_7UttqvZRA98&s=10",
-    "homeScreenDisplay": false,
+    "homeScreenDisplay": true,
     "categoryId": "cat_pharmacy",
     "featuredInCat": true,
     "tasneef": "صيدليات"
@@ -95,7 +95,7 @@
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbpYxXdKxjNClWmGvAOLS7y5lXEBASz5huYqEYMI7-pyR2ddBRn-9wS8&s=10",
     "homeScreenDisplay": true,
     "categoryId": "cat_pharmacy",
-    "featuredInCat": false,
+    "featuredInCat": true,
     "tasneef": "صيدليات"
   }
 ]
