@@ -19,43 +19,52 @@
     <div class="loader-content">
       <img src="assets/images/logo.svg" alt="Wafra Logo" class="pulsing-logo">
       <div class="spinner"></div>
-      <p class="loader-text">يتم الآن تحميل أفضل العروض بمدينتك ... وفر مع وفَرة</p>
+      <p class="loader-text">وفر مع وَفرة ... جاري تحميل أفضل العروض بمدينتك</p>
+      <p class="loader-text"><b>الأسعار إسترشادية ... قد تختلف قليلا بسبب تحديثات السوق اللحظية</b></p>
     </div>
   </div>
 
   <!-- خلفية علوية بلون البراند تغطي منطقة شريط الحالة في أندرويد -->
   <div class="status-bar-bg"></div>
   
-  <header>
-    <div class="logo-container">
-      <img src="assets/images/logo.svg" alt="شعار وفرة Wafra" class="site-logo">
-    </div>
-    
-    <!-- زر الموقع المضغوط في الهيدر -->
-    <div class="header-location-trigger" id="open-location-modal" title="تغيير موقعك">
-      <span class="pin-icon">📍</span>
-      <span id="current-location-label">اختر موقعك</span>
-      <span class="arrow-icon">▼</span>
-    </div>
-  </header>
-
-  <!-- Navigation Bar -->
-  <nav class="main-navbar">
-    <button id="nav-home-btn" class="nav-tab active">🏠 الرئيسية</button>
-    <button id="nav-stores-btn" class="nav-tab">🏬 جميع المتاجر</button>
-    
-    <!-- Categories Dropdown Menu -->
-    <div class="nav-dropdown" id="nav-category-dropdown">
-      <button id="nav-category-btn" class="nav-tab nav-dropdown-toggle">
-        📁 الفئات <span class="arrow-down">▼</span>
-      </button>
-      <div id="category-dropdown-menu" class="dropdown-menu">
-        <!-- Filled dynamically -->
+  <div class="navbarheader">
+    <header>
+      <div class="logo-container">
+        <img src="assets/images/logo.svg" alt="شعار وفرة Wafra" class="site-logo">
       </div>
-    </div>
+      
+      <!-- زر الموقع المضغوط في الهيدر -->
+      <div class="header-location-trigger" id="open-location-modal" title="تغيير موقعك">
+        <span class="pin-icon">📍</span>
+        <span id="current-location-label">اختر موقعك</span>
+        <span class="arrow-icon">▼</span>
+      </div>
+    </header>
 
-    <button id="nav-offers-btn" class="nav-tab">🏷️ العروض والتخفيضات</button>
-  </nav>
+    <!-- Navigation Bar -->
+    <nav class="main-navbar">
+      <button id="nav-home-btn" class="nav-tab active">🏠 الرئيسية</button>
+      <button id="nav-stores-btn" class="nav-tab">🏬 جميع المتاجر</button>
+      
+      <!-- Categories Dropdown Menu -->
+      <div class="nav-dropdown" id="nav-category-dropdown">
+        <button id="nav-category-btn" class="nav-tab nav-dropdown-toggle">
+          📁 الفئات <span class="arrow-down">▼</span>
+        </button>
+        <div id="category-dropdown-menu" class="dropdown-menu">
+          <!-- Filled dynamically -->
+        </div>
+      </div>
+
+      <button id="nav-offers-btn" class="nav-tab">🏷️ العروض والتخفيضات</button>
+    </nav>
+    <div id="search-section-wrapper" class="search-section" style="position: relative;">
+      <input type="text" id="search-input" class="search-input" placeholder="ابحث عن اسم المنتج، العلامة التجارية، أو الفئة...">
+      <button id="search-btn" class="btn-primary">بحث</button>
+      <!-- قائمة اقتراحات البحث المنسدلة -->
+      <div id="search-suggestions" class="search-suggestions-dropdown"></div>
+    </div>
+  </div>
 
   <main>
     <!-- Store Header Bar / Back View Header -->
@@ -70,12 +79,7 @@
       <h2 id="comparison-product-title" style="margin: 0; font-size: 1.25rem; color: #111111;">مقارنة أسعار المنتج</h2>
     </div>
 
-    <div id="search-section-wrapper" class="search-section" style="position: relative;">
-      <input type="text" id="search-input" class="search-input" placeholder="ابحث عن اسم المنتج، العلامة التجارية، أو الفئة...">
-      <button id="search-btn" class="btn-primary">بحث</button>
-      <!-- قائمة اقتراحات البحث المنسدلة -->
-      <div id="search-suggestions" class="search-suggestions-dropdown"></div>
-    </div>
+    
 
     <!-- Dynamic Main Content Container -->
     <div id="dynamic-content-area">
@@ -84,7 +88,7 @@
   </main>
 
   <footer>
-    <p>تطبيق وفَرة ... أفضل العروض والأسعار في مكان واحد "نسخة تجريبي"</p>
+    <p>تطبيق وَفرة — مقارنة الأسعار مستقلة تقريبية. لا يتبع أي متجر تجاري ولا يقدم خدمات الدفع الإلكتروني أو التوصيل.</p>
   </footer>
 
   <!-- نافذة اختيار العنوان (Popup Modal) -->

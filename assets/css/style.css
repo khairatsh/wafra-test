@@ -28,6 +28,12 @@ body {
   line-height: 1.5;
 }
 
+.navbarheader{
+  position: sticky;
+  top: 28px;
+  z-index: 100;
+}
+
 header {
   background-color: var(--wafra-white);
   color: var(--wafra-white);
@@ -36,9 +42,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: 4px solid var(--wafra-red);
-  position: sticky;
-  top: 28px;
-  z-index: 100;
+  
 }
 
 .logo-container {
