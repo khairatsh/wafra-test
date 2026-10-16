@@ -542,19 +542,25 @@ footer {
   }
 
   .search-section {
-    flex-direction: column;
-    padding: 1rem;
-    gap: 0.75rem;
+    flex-direction: row; /* إبقاء العناصر في نفس السطر أفقياً */
+    padding: 0.75rem;
+    gap: 0.5rem;
+    align-items: center;
   }
 
   .search-input {
-    width: 100%;
-    padding: 0.65rem;
+    flex: 1; /* خانة البحث تأخذ المساحة المتاحة بالكامل */
+    width: auto;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
   }
 
   .search-section .btn-primary {
-    width: 100%;
-    padding: 0.65rem;
+    width: auto;
+    flex-shrink: 0; /* منع انكماش الزر */
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    white-space: nowrap; /* منع التفاف كلمة "بحث" لسطر جديد */
   }
 
   .card-grid {
