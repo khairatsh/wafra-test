@@ -36,6 +36,29 @@ document.addEventListener('DOMContentLoaded', async () => {
   const categoryBtn = document.getElementById('nav-category-btn');
   const categoryMenu = document.getElementById('category-dropdown-menu');
 
+
+  // التحقق مما إذا كانت هذه هي الزيارة الأولى للمستخدم
+  const savedCountry = localStorage.getItem('wafra_user_country');
+  const welcomeModal = document.getElementById('welcome-country-modal');
+
+  if (!savedCountry && welcomeModal) {
+    // إذا لم يحدد الدولة من قبل، نظهر نافذة اختيار الدولة ونخفي نافذة المدينة مؤقتاً
+    welcomeModal.classList.add('show');
+  }
+
+  // دالة يتم استدعاءها عند الضغط على زر الدولة في نافذة الترحيب
+  window.selectCountry = function(countryCode) {
+    localStorage.setItem('wafra_user_country', countryCode);
+    if (welcomeModal) welcomeModal.classList.remove('show');
+
+    if (countryCode === 'sa') {
+      window.location.href = 'saudi.html';
+    } else {
+      window.location.href = 'index.html';
+    }
+  };
+
+
   // ================== Location Popup Logic ==================
   const locationModal = document.getElementById('location-modal');
   const openLocationModalBtn = document.getElementById('open-location-modal');
@@ -128,8 +151,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const savedLocationJson = localStorage.getItem('wafra_user_location');
   const savedLocationText = localStorage.getItem('wafra_user_location_text');
+  const forceOpenModal = localStorage.getItem('force_open_location_modal');
 
-  if (savedLocationJson && savedLocationText) {
+  if (savedLocationJson && savedLocationText && !forceOpenModal) {
     try {
       currentLocation = JSON.parse(savedLocationJson);
       if (currentLocationLabel) {
@@ -139,11 +163,30 @@ document.addEventListener('DOMContentLoaded', async () => {
       console.error("Error parsing saved location", e);
     }
   } else {
+    // إذا لم يكن هناك عنوان مخزن، أو تم تغيير الدولة للتو (forceOpenModal)
+    localStorage.removeItem('force_open_location_modal'); // مسح العلامة حتى لا تفتح إجباري بعد ذلك
     setTimeout(() => {
       populateModalGovs();
       if (locationModal) locationModal.classList.add('show');
     }, 400);
   }
+
+  //
+  // دالة تبديل الدولة وتصفير العنوان القديم وإظهار نافذة اختيار المدينة
+  window.switchCountry = function(countryCode, targetUrl) {
+    // مسح العنوان القديم المرتبط بالدولة السابقة
+    localStorage.removeItem('wafra_user_location');
+    localStorage.removeItem('wafra_user_location_text');
+    
+    // تخزين الدولة الجديدة
+    localStorage.setItem('wafra_user_country', countryCode);
+    
+    // وضع علامة تفرض فتح نافذة اختيار المدينة تلقائياً بمجرد فتح الصفحة الجديدة
+    localStorage.setItem('force_open_location_modal', 'true');
+
+    // الانتقال لصفحة الدولة الجديدة
+    window.location.href = targetUrl;
+  };
 
   function populateCategoriesMenu() {
     if (!categoryMenu) return;
@@ -1136,6 +1179,21 @@ document.addEventListener('DOMContentLoaded', async () => {
           renderApp();
         }
       });
+    });
+  }
+
+  // قائمة اختيار الدولة
+  const countryBtn = document.getElementById('country-dropdown-btn');
+  const countryMenu = document.getElementById('country-dropdown-menu');
+
+  if (countryBtn && countryMenu) {
+    countryBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      countryMenu.classList.toggle('show');
+    });
+
+    document.addEventListener('click', () => {
+      countryMenu.classList.remove('show');
     });
   }
 

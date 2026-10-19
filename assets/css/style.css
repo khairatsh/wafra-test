@@ -1222,3 +1222,134 @@ header.app-header {
   color: #E31B23;
   margin: 0.3rem 0;
 }
+
+
+header {
+  background-color: var(--wafra-white);
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4px solid var(--wafra-red);
+}
+
+/* حاوية العناصر على اليسار */
+.left-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* قائمة الدولة */
+.country-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.country-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+/* الدائرة الصغيرة الحاوية للعلم */
+.flag-circle {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #F3F4F6;
+  border: 1.5px solid var(--wafra-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* يضمن إخفاء زوايا الصورة المستطيلة لتظهر كدائرة */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.country-btn:hover .flag-circle {
+  border-color: var(--wafra-red);
+  transform: scale(1.05);
+}
+
+/* ضبط صورة العلم لملء الدائرة وتغطيتها بالكامل */
+.flag-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* السهم الصغير أسفل يمين الدائرة */
+.flag-arrow {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  font-size: 0.4rem;
+  background-color: var(--wafra-black);
+  color: #FFFFFF;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid #FFFFFF;
+  z-index: 2;
+}
+
+/* القائمة المنسدلة للأعلام */
+.country-menu {
+  display: none;
+  position: absolute;
+  top: 120%;
+  left: 0; /* تفتح للأسفل باتجاه اليسار */
+  background: #FFFFFF;
+  border: 1px solid var(--wafra-border);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 6px;
+  z-index: 1000;
+  min-width: 44px;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.country-menu.show {
+  display: flex;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  overflow: hidden;
+}
+
+.menu-flag-img {
+  width: 22px;
+  height: 15px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.country-item:hover {
+  background-color: #F3F4F6;
+}
+
+.country-item.active {
+  background-color: #FEE2E2;
+}

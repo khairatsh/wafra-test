@@ -29,15 +29,37 @@
   
   <div class="navbarheader">
     <header>
+      <!-- 1. أقصى اليمين: اللوجو -->
       <div class="logo-container">
         <img src="assets/images/logo.svg" alt="شعار وفرة Wafra" class="site-logo">
       </div>
       
-      <!-- زر الموقع المضغوط في الهيدر -->
-      <div class="header-location-trigger" id="open-location-modal" title="تغيير موقعك">
-        <span class="pin-icon">📍</span>
-        <span id="current-location-label">اختر موقعك</span>
-        <span class="arrow-icon">▼</span>
+      <!-- 2. الطرف الأيسر: زر الموقع وعلى يساره علم الدولة -->
+      <div class="left-header-actions">
+        <!-- زر الموقع -->
+        <div class="header-location-trigger" id="open-location-modal" title="تغيير موقعك">
+          <span class="pin-icon">📍</span>
+          <span id="current-location-label">اختر موقعك</span>
+          <span class="arrow-icon">▼</span>
+        </div>
+
+        <!-- قائمة اختيار الدولة على أقصى اليسار -->
+        <div class="country-dropdown">
+          <button class="country-btn" id="country-dropdown-btn" title="اختيار الدولة">
+            <span class="flag-circle">
+              <img src="https://flagcdn.com/w40/eg.png" alt="مصر" class="flag-img">
+              <!-- <span class="flag-arrow">▼</span> -->
+            </span>
+          </button>
+          <div class="country-menu" id="country-dropdown-menu">
+            <a href="#" onclick="switchCountry('eg', 'index.html')" class="country-item active" title="مصر">
+              <img src="https://flagcdn.com/w40/eg.png" alt="مصر" class="menu-flag-img">
+            </a>
+            <a href="#" onclick="switchCountry('sa', 'saudi.html')" class="country-item" title="السعودية">
+              <img src="https://flagcdn.com/w40/sa.png" alt="السعودية" class="menu-flag-img">
+            </a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -117,6 +139,30 @@
 
       <div class="modal-footer">
         <button id="confirm-location-btn" class="confirm-btn" disabled>تأكيد الاختيار</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- نافذة اختيار الدولة عند أول زيارة (Welcome Country Modal) -->
+  <div id="welcome-country-modal" class="location-modal-overlay">
+    <div class="location-modal-content" style="text-align: center;">
+      <div class="modal-header" style="justify-content: center; border: none; padding-bottom: 0;">
+        <h3 style="font-size: 1.2rem;">أهلاً بك في وَفرة 🛒</h3>
+      </div>
+      <p style="color: #6B7280; font-size: 0.9rem; margin-bottom: 1.5rem;">يرجى اختيار دولتك لتخصيص الأسعار والعروض:</p>
+      
+      <div style="display: flex; gap: 1rem; justify-content: center;">
+        <!-- زر مصر -->
+        <button onclick="selectCountry('eg')" style="flex: 1; padding: 1rem; border: 2px solid #E5E7EB; border-radius: 12px; background: #fff; cursor: pointer; transition: 0.2s;" onmouseover="this.style.borderColor='#E31B23'" onmouseout="this.style.borderColor='#E5E7EB'">
+          <img src="https://flagcdn.com/w80/eg.png" alt="مصر" style="width: 50px; height: 35px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem; display: block; margin-inline: auto;">
+          <span style="font-weight: 700; color: #111;">مصر 🇪🇬</span>
+        </button>
+
+        <!-- زر السعودية -->
+        <button onclick="selectCountry('sa')" style="flex: 1; padding: 1rem; border: 2px solid #E5E7EB; border-radius: 12px; background: #fff; cursor: pointer; transition: 0.2s;" onmouseover="this.style.borderColor='#E31B23'" onmouseout="this.style.borderColor='#E5E7EB'">
+          <img src="https://flagcdn.com/w80/sa.png" alt="السعودية" style="width: 50px; height: 35px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem; display: block; margin-inline: auto;">
+          <span style="font-weight: 700; color: #111;">السعودية 🇸🇦</span>
+        </button>
       </div>
     </div>
   </div>

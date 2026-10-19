@@ -1,0 +1,274 @@
+[
+  {
+    "storeId": "putcher-onset",
+    "storeNameAr": "جزارة أونسيت",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpFLnN0bjXW85Y_tfPsFpo5hFfCRgYjDBWHt4c55SOpq424yzEFsR-zot&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putchar-beefmarket",
+    "storeNameAr": "بيف ماركت",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFVNpSnlfjd51k45UQGB9eteM8FPDNnp1VM0LUF_rnA&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-abu-ali",
+    "storeNameAr": "جزارة أبو علي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzhfyZmEaijYD6j0fPrRihT49R72Fd5X2-detRe10gw&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-megahed-basha",
+    "storeNameAr": "جزارة مجاهد باشا",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYEIakn9sbbaVg5q5pteyda3Qm7nARo97QffLkqiNqyQ&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-abu-fady",
+    "storeNameAr": "أبو فادي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KKg4yR7Ku-Vumr67aP2s3RRwExwV0Cm6N9oF8Z66YvasmOXKugmB-rI&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-etewy2",
+    "storeNameAr": "العطيوي2",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc5kJg48Qzi_OPIUWJelmvgxl03O-BVCwJDAywoF6bxAAkizPrr9fkapY&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-ala-elbahr",
+    "storeNameAr": "على البحر للأسماك و المأكولات البحرية",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRB3q2wgqPSw3fILsjzjd9zLzriYDaOjA0DonGy0kzrHdlCHfqCzbG4RV&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-elkhedewy",
+    "storeNameAr": "أسمالك الخديوي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQSF06xqH0uf8AfAbTPxjG7qmkeAjuGSxrZ7HL560tQgrBIxUYeiIQLbtw&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-uncle-samy",
+    "storeNameAr": "عمو سامي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRREy6bgpt165-qcD27t95OR5BHarIC7pasyXlOPP8AxvoEVNlNYQ05-tHI&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "pharmacy-zahraa-gdeda",
+    "storeNameAr": "صيدلية الزهراء الجديدة",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP1K6GbQl6m4PNlemJ_q8cjP5BKmsRWVnWLBJqEb77cNE_7UttqvZRA98&s=10",
+    "homeScreenDisplay": false,
+    "categoryId": "cat_pharmacy",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "pharmacy-hossam-moussa",
+    "storeNameAr": "صيدليات د.حسام موسى",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbpYxXdKxjNClWmGvAOLS7y5lXEBASz5huYqEYMI7-pyR2ddBRn-9wS8&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_pharmacy",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-saadawy",
+    "storeNameAr": "جزارة السعداوي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9pUdvCQKyR5feIq4iqqSBKmAVNJ4pBVByP5YkS8-c7Q&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-daharany",
+    "storeNameAr": "جزارة الدهراني",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_W0FwUHnWj9YHB6GegED6ylaWAijauKok3eJd4Vg3w&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-drbetello",
+    "storeNameAr": "دكتور بتلو",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3v9MXjjJQkay8MPT8AtGaKD16bVHkzWFcpZWBAlcqbg&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-altawfeeq",
+    "storeNameAr": "جزارة ال توفيق",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpDtSYI7nnDHW1XI5AWGzvIDKY7V8W8lFChxT20J9x4w&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-eweida",
+    "storeNameAr": "جزارة العويضة",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCllFiKvHvjGVCnfQ0_ocUeMm3e5Q61HbvS_c_e3QkNbFSA2G3H_1Esxi&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-khaled",
+    "storeNameAr": "جزارة خالد",
+    "imageUrl": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-picture-coming-creative-vector-png-image_40968940.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-gheitany",
+    "storeNameAr": "جزارة الغيطاني",
+    "imageUrl": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-picture-coming-creative-vector-png-image_40968940.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-mashad",
+    "storeNameAr": "جزارة المشد",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXU1-RHb-KXuZC1x8MsTOyAIRSecYVLmq_b4f_TuptEA&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-aleman",
+    "storeNameAr": "جزارة الايمان",
+    "imageUrl": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-picture-coming-creative-vector-png-image_40968940.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-hagary",
+    "storeNameAr": "قرية الحجري",
+    "imageUrl": "https://elhagary.online/480787088_641584685033214_2897312138227383043_n.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-seleem",
+    "storeNameAr": "جزارة سليم",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGHziCJ3xCg7xb8gCCnPp9itLNK4-m2Lbfc3nET_lKQ&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-abumohanad",
+    "storeNameAr": "جزارة أبو مهند",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6aeY7HsT_vIu3ZvPcHgfLdgrqmStbyZblvidkQOX93TmBWYUXiLx1NxE7&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "putcher-alamallohoom",
+    "storeNameAr": "جزارة عالم اللحوم",
+    "imageUrl": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-picture-coming-creative-vector-png-image_40968940.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_meat",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-toyorelkheir",
+    "storeNameAr": "طيور الخير",
+    "imageUrl": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-picture-coming-creative-vector-png-image_40968940.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-farkhahanem",
+    "storeNameAr": "فرخة هانم",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSbzluMPyWUtJ8wMC-KzNdYi7AXe-PsxCnXvFr4hJ5tg&s",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-kokoshama",
+    "storeNameAr": "كوكو شامه",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9gRHKFaLb_frfjyaRzPlFTKJlT-e0y5ZNww4LhxBlhdatv6XfYQG0jbQ7&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-kheirzaman",
+    "storeNameAr": "خير زمان",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMmhJyTQN3kt7eRqUQ7ipvBY6qy82iCG8NhxsDckZKFxK5SRmukMjmjYc&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-dajajmalaky",
+    "storeNameAr": "الدجاج الملكي",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjrHpPz3d3BtZC_VpKgKy0ixot9yezB3MjwjNlrEoexw&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "poultary-mrdajaja",
+    "storeNameAr": "مستر دجاجة",
+    "imageUrl": "https://png.pngtree.com/png-vector/20221125/ourmid/pngtree-no-image-available-icon-flatvector-illustration-picture-coming-creative-vector-png-image_40968940.jpg",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_poultary",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-nawartalsahel",
+    "storeNameAr": "نوارة الساحل",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuT2wn5xF88rU_akifqHyIK36aeouKt9365S37PTpNxU9Dq5puaT-oxGM&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-seafood",
+    "storeNameAr": "سي فود",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-xUV-IEjB19GTMmG4npLlHv2EdbJktfBOS4H2XOlKKnRFChf06EnGURfc&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-albaheig",
+    "storeNameAr": "البهيج",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYlSPYJvJSDPWV3mlRq4YkQiCVbJE-5cIzaXC5Kyii7g&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  },
+  {
+    "storeId": "fish-shorbtbahr",
+    "storeNameAr": "شوربة بحر",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcwBbzVumvXrvarl8FL5wYF5OCpscvsqqcFGhQysa5d3vL4WcLE3FTSUf1&s=10",
+    "homeScreenDisplay": true,
+    "categoryId": "cat_fish",
+    "featuredInCat": true
+  }
+]

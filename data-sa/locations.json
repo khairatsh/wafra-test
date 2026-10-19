@@ -1,0 +1,10 @@
+[
+  {
+    "governorateId": "gov_Qassim",
+    "governorateNameAr": "القصيم",
+    "cities": [
+      { "cityId": "city_unaizah", "cityNameAr": "عنيزة" },
+      { "cityId": "city_buraidah", "cityNameAr": "بريدة" }
+    ]
+  }
+]

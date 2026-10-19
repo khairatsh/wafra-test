@@ -1,0 +1,326 @@
+[
+  {
+    "branchId": "putchar-beefmarket-damietta",
+    "storeId": "putchar-beefmarket",
+    "branchNameAr": "دمياط القديمة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_damietta",
+    "addressAr": "شارع عبدالعظيم وزير",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putchar-beefmarket-newdamietta",
+    "storeId": "putchar-beefmarket",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المنطقة المركزية",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-onset-newdamietta",
+    "storeId": "putcher-onset",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "لمركزيه خلف حلواني الجمل",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-abu-ali-newdamietta",
+    "storeId": "putcher-abu-ali",
+    "branchNameAr": " دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المركزية أمام المجمع الإسلامي",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-megahed-basha-newdamietta",
+    "storeId": "putcher-megahed-basha",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "منتصف شارع الصحبجية أمام كافيه سيدار",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "poultary-abu-fady-newdamietta",
+    "storeId": "poultary-abu-fady",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المجاورة السادسه الحي التاني",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "poultary-etewy2-newdamietta",
+    "storeId": "poultary-etewy2",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الثاني سوق المجاوره الخامسه",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "storeId": "fish-ala-elbahr",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "آخر شارع المحجوب بجوار فتح الله هايبر ماركت",
+    "tasneed": "fish"
+  },
+  {
+    "branchId": "fish-elkhedewy-newdamietta",
+    "storeId": "fish-elkhedewy",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": " الحي الرابع _ شارع المرور",
+    "tasneed": "fish"
+  },
+  {
+    "branchId": "fish-uncle-samy-newdamietta",
+    "storeId": "fish-uncle-samy",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "دمياط الجديدة",
+    "tasneed": "fish"
+  },
+  {
+    "branchId": "pharmacy-zahraa-gdeda-newdamietta",
+    "storeId": "pharmacy-zahraa-gdeda",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "شارع حسب الله الكفراوي بجوار كنتاكي",
+    "tasneed": "pharmacy"
+  },
+  {
+    "branchId": "pharmacy-hossam-moussa-newdamietta",
+    "storeId": "pharmacy-hossam-moussa",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "دمياط الجديدة",
+    "tasneed": "pharmacy"
+  },
+  {
+    "branchId": "putcher-saadawy-newdamietta",
+    "storeId": "putcher-saadawy",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "خلف مستشفى الأزهر",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-daharany-newdamietta",
+    "storeId": "putcher-daharany",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "آخر شارع المحجوب بجوار فتح الله هايبر ماركت",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-drbetello-damietta",
+    "storeId": "putcher-drbetello",
+    "branchNameAr": "دمياط القديمة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_damietta",
+    "addressAr": "شارع وزير بجوار مصنع خالد",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-altawfeeq-newdamietta",
+    "storeId": "putcher-altawfeeq",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الثالث مجاورة 16",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-eweida-newdamietta",
+    "storeId": "putcher-eweida",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المركزية بجوار البنك الأهلي القديم",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-khaled-newdamietta",
+    "storeId": "putcher-khaled",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "منتصف شارع الصعيدي الجديد",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-gheitany-newdamietta",
+    "storeId": "putcher-gheitany",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "نهاية شارع المحجوب بجوار مسجد الروضة الشريفة",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-mashad-newdamietta",
+    "storeId": "putcher-mashad",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "منتصف شارع الصعيدي القديم",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-aleman-newdamietta",
+    "storeId": "putcher-aleman",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "شارع الصحبجية",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-eweida-dekernes",
+    "storeId": "putcher-eweida",
+    "branchNameAr": "دكرنس",
+    "governorateId": "gov_dkahliya",
+    "cityId": "city_dekernes",
+    "addressAr": "شارع مجلس المدينة أمام بنزينة توتال",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-hagary-damietta",
+    "storeId": "putcher-hagary",
+    "branchNameAr": "دمياط القديمة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_damietta",
+    "addressAr": "أول طريق العنانية",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-seleem-damietta",
+    "storeId": "putcher-seleem",
+    "branchNameAr": "دمياط القديمة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_damietta",
+    "addressAr": "شارع وزير امام مبروك للأجهزة الكهربائية",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-abumohanad-damietta",
+    "storeId": "putcher-abumohanad",
+    "branchNameAr": "دمياط القديمة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_damietta",
+    "addressAr": "شارع غيط النصارى، باب الحرس",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "putcher-alamallohoom-damietta",
+    "storeId": "putcher-alamallohoom",
+    "branchNameAr": "دمياط القديمة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_damietta",
+    "addressAr": "كوبري المطري",
+    "tasneed": "meat"
+  },
+  {
+    "branchId": "poultary-toyorelkheir-newdamietta",
+    "storeId": "poultary-toyorelkheir",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الخامس مجاورة 25",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "poultary-farkhahanem-newdamietta",
+    "storeId": "poultary-farkhahanem",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الخامس شارع استاكوزا",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "poultary-kokoshama-newdamietta",
+    "storeId": "poultary-kokoshama",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المركزية بجوار قصر الثقافة",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "poultary-kheirzaman-newdamietta",
+    "storeId": "poultary-kheirzaman",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "منتصف الصعيدي القديم",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "poultary-dajajmalaky-newdamietta",
+    "storeId": "poultary-dajajmalaky",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الثالث مجاورة 15",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "poultary-mrdajaja-newdamietta",
+    "storeId": "poultary-mrdajaja",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المحجوب بجوار مركز الأذن",
+    "tasneed": "poultary"
+  },
+  {
+    "branchId": "fish-nawartalsahel-newdamietta",
+    "storeId": "fish-nawartalsahel",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "المركزية بجوار بنزينة موبيل",
+    "tasneed": "fish"
+  },
+  {
+    "branchId": "fish-seafood-newdamietta",
+    "storeId": "fish-seafood",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "بجوار العيادة الشاملة",
+    "tasneed": "fish"
+  },
+  {
+    "branchId": "fish-albaheig-newdamietta",
+    "storeId": "fish-albaheig",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الخامس مجاورة 27",
+    "tasneed": "fish"
+  },
+  {
+    "branchId": "fish-shorbtbahr-newdamietta",
+    "storeId": "fish-shorbtbahr",
+    "branchNameAr": "دمياط الجديدة",
+    "governorateId": "gov_damietta",
+    "cityId": "city_newdamietta",
+    "addressAr": "الحي الخامس مجاورة 28",
+    "tasneed": "fish"
+  }
+]

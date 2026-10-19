@@ -1,0 +1,10 @@
+[
+  {
+    "governorateId": "gov_damietta",
+    "governorateNameAr": "دمياط",
+    "cities": [
+      { "cityId": "city_newdamietta", "cityNameAr": "دمياط الجديدة" },
+      { "cityId": "city_damietta", "cityNameAr": "دمياط القديمة" }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+[
+  { "categoryId": "cat_meat", "categoryNameAr": "لحوم ومصنعاتها" },
+  { "categoryId": "cat_poultary", "categoryNameAr": "دواجن طازجة" },
+  { "categoryId": "cat_fish", "categoryNameAr": "أسماك طازجة" },
+  { "categoryId": "cat_pharmacy", "categoryNameAr": "عناية الأم والطفل" },
+  { "categoryId": "cat_supermarket", "categoryNameAr": "سوبر ماركت" },
+  { "categoryId": "cat_dairy", "categoryNameAr": "منتجات ألبان" }
+]

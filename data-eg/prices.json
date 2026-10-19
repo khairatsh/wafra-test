@@ -1,0 +1,178 @@
+[
+  {
+    "priceId": "fish-bolti-normal",
+    "variantId": "fish-bolti-normal-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 9000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-bolti-green",
+    "variantId": "fish-bolti-green-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 15000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-sardine",
+    "variantId": "fish-sardine-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 12000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-tobara",
+    "variantId": "fish-tobara-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 16000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-balameta",
+    "variantId": "fish-balameta-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 16000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-bori",
+    "variantId": "fish-bori-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 25000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-macrel",
+    "variantId": "fish-macrel-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 25000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-seheli",
+    "variantId": "fish-seheli-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 35000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-barboni",
+    "variantId": "fish-barboni-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 30000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-gambari",
+    "variantId": "fish-gambari-1k",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "pricePiastres": 40000,
+    "observationDate": "2026-09-23",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-bolti-green",
+    "variantId": "fish-bolti-green-1kg",
+    "branchId": "fish-elkhedewy-newdamietta",
+    "pricePiastres": 17000,
+    "observationDate": "2026-10-15",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-tobara",
+    "variantId": "fish-tobara-1kg",
+    "branchId": "fish-elkhedewy-newdamietta",
+    "pricePiastres": 16000,
+    "observationDate": "2026-10-15",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-bori",
+    "variantId": "fish-bori-1kg",
+    "branchId": "fish-elkhedewy-newdamietta",
+    "pricePiastres": 22000,
+    "observationDate": "2026-10-15",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-seheli",
+    "variantId": "fish-seheli-1kg",
+    "branchId": "fish-elkhedewy-newdamietta",
+    "pricePiastres": 25000,
+    "observationDate": "2026-10-15",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-barboni",
+    "variantId": "fish-barboni-1kg",
+    "branchId": "fish-elkhedewy-newdamietta",
+    "pricePiastres": 18000,
+    "observationDate": "2026-10-15",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-gambari",
+    "variantId": "fish-gambari-1k",
+    "branchId": "fish-elkhedewy-newdamietta",
+    "pricePiastres": 35000,
+    "observationDate": "2026-10-15",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-bolti-normal",
+    "variantId": "fish-bolti-normal-1kg",
+    "branchId": "fish-uncle-samy-newdamietta",
+    "pricePiastres": 7000,
+    "observationDate": "2026-10-08",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-bolti-green",
+    "variantId": "fish-bolti-green-1kg",
+    "branchId": "fish-uncle-samy-newdamietta",
+    "pricePiastres": 16000,
+    "observationDate": "2026-10-08",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-sardine",
+    "variantId": "fish-sardine-1kg",
+    "branchId": "fish-uncle-samy-newdamietta",
+    "pricePiastres": 18000,
+    "observationDate": "2026-10-13",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-tobara",
+    "variantId": "fish-tobara-1kg",
+    "branchId": "fish-uncle-samy-newdamietta",
+    "pricePiastres": 17000,
+    "observationDate": "2026-10-08",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-balameta",
+    "variantId": "fish-balameta-1kg",
+    "branchId": "fish-uncle-samy-newdamietta",
+    "pricePiastres": 18000,
+    "observationDate": "2026-10-08",
+    "sourceAr": "سوشيال ميديا"
+  },
+  {
+    "priceId": "fish-gambari",
+    "variantId": "fish-gambari-1k",
+    "branchId": "fish-uncle-samy-newdamietta",
+    "pricePiastres": 50000,
+    "observationDate": "2026-10-08",
+    "sourceAr": "سوشيال ميديا"
+  }
+]
