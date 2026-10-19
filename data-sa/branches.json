@@ -2,9 +2,9 @@
   {
     "branchId": "putchar-beefmarket-damietta",
     "storeId": "putchar-beefmarket",
-    "branchNameAr": "دمياط القديمة",
-    "governorateId": "gov_damietta",
-    "cityId": "city_damietta",
+    "branchNameAr": "عنيزة",
+    "governorateId": "gov_Qassim",
+    "cityId": "city_unaizah",
     "addressAr": "شارع عبدالعظيم وزير",
     "tasneed": "meat"
   },
@@ -66,8 +66,8 @@
     "branchId": "fish-ala-elbahr-newdamietta",
     "storeId": "fish-ala-elbahr",
     "branchNameAr": "دمياط الجديدة",
-    "governorateId": "gov_damietta",
-    "cityId": "city_newdamietta",
+    "governorateId": "gov_Qassim",
+    "cityId": "city_unaizah",
     "addressAr": "آخر شارع المحجوب بجوار فتح الله هايبر ماركت",
     "tasneed": "fish"
   },
@@ -300,8 +300,8 @@
     "branchId": "fish-seafood-newdamietta",
     "storeId": "fish-seafood",
     "branchNameAr": "دمياط الجديدة",
-    "governorateId": "gov_damietta",
-    "cityId": "city_newdamietta",
+    "governorateId": "gov_Qassim",
+    "cityId": "city_unaizah",
     "addressAr": "بجوار العيادة الشاملة",
     "tasneed": "fish"
   },

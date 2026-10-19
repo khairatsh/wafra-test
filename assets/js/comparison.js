@@ -14,7 +14,20 @@ function calculateFreshness(observationDateStr) {
   }
 }
 
+// ==========================================
+// 🌟 دالة تنسيق وعرض الأسعار والعملة حسب الدولة
+// ==========================================
 function formatPiastres(piastres) {
-  const egp = (piastres / 100).toFixed(2);
-  return `${egp} جنيه`;
+  // التحقق هل نحن في صفحة السعودية أو تم اختيارها في التخزين المحلي
+  const isSaudiPage = window.location.pathname.includes('saudi.html') || localStorage.getItem('wafra_user_country') === 'sa';
+  
+  // اختيار العملة المناسبة (ريال سعودي للمملكة، جنيه مصري لمصر)
+  const currencySymbol = isSaudiPage ? 'ر.س' : 'ج.م';
+  
+  const amount = (piastres / 100).toLocaleString('en-US', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 2
+  });
+
+  return `${amount} ${currencySymbol}`;
 }
