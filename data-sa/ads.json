@@ -2,7 +2,7 @@
   {
     "adId": "ad_001",
     "imageUrl": "https://iili.io/nhuW1Nn.png",
-    "titleAr": "وفرة ... أقوى عروض في مصر",
+    "titleAr": "وفرة ... أقوى عروض في السعودية",
     "ctaTextAr": "اعرف المزيد",
     "targetType": "external",    
     "targetValue": "https://khairatsh.github.io/wafra-test/",
@@ -14,7 +14,7 @@
     "ctaTextAr": "اعرف المزيد",
     "targetType": "external",    
     "targetValue": "https://khairatsh.github.io/wafra-test/",
-    "governorateId": "gov_damietta"
+    "governorateId": "gov_Qassim"
   },
   {
     "adId": "ad_003",
@@ -23,6 +23,6 @@
     "ctaTextAr": "تصفح المتجر",
     "targetType": "store",      
     "targetValue": "putcher-mashad",
-    "cityId": "city_newdamietta"
+    "cityId": "city_unaizah"
   } 
 ]

@@ -1,3 +1,20 @@
+// 🌟 التوجيه المباشر للدولة المخزنة عند فتح WebView
+(function checkSavedCountryRedirect() {
+  const savedCountry = localStorage.getItem('wafra_user_country');
+  const currentPath = window.location.pathname;
+
+  // إذا كانت الدولة المخزنة هي السعودية والمستخدم فتح index.html، نحوله فوراً لـ saudi.html
+  if (savedCountry === 'sa' && !currentPath.includes('saudi.html')) {
+    window.location.replace('saudi.html');
+    return;
+  }
+  // إذا كانت الدولة المخزنة هي مصر والمستخدم في saudi.html، نحوله لـ index.html
+  if (savedCountry === 'eg' && currentPath.includes('saudi.html')) {
+    window.location.replace('index.html');
+    return;
+  }
+})();
+
 document.addEventListener('DOMContentLoaded', async () => {
   const data = await loadWafraData();
   if (!data) return;
@@ -57,6 +74,22 @@ document.addEventListener('DOMContentLoaded', async () => {
       window.location.href = 'index.html';
     }
   };
+
+  // 🌟 تحديث أزرار وأعلام الهيدر تلقائياً
+  const flagImg = document.querySelector('.country-btn .flag-img');
+  const isSaudiPage = window.location.pathname.includes('saudi.html');
+
+  if (flagImg) {
+    if (isSaudiPage) {
+      flagImg.src = 'https://flagcdn.com/w40/sa.png';
+      flagImg.alt = 'السعودية';
+      localStorage.setItem('wafra_user_country', 'sa');
+    } else {
+      flagImg.src = 'https://flagcdn.com/w40/eg.png';
+      flagImg.alt = 'مصر';
+      localStorage.setItem('wafra_user_country', 'eg');
+    }
+  }
 
 
   // ================== Location Popup Logic ==================
@@ -1210,6 +1243,6 @@ window.addEventListener('load', () => {
       setTimeout(() => {
         loader.style.display = 'none';
       }, 400); 
-    }, 3000);
+    }, 2000);
   }
 });
