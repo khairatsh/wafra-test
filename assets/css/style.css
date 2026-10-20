@@ -5,7 +5,7 @@
   --wafra-gray-bg: #F8F9FA;
   --wafra-border: #E5E7EB;
   --wafra-text: #1F2937;
-  --wafra-muted: #6B7280;
+  --wafra-muted: #6b7280;
   --wafra-success: #10B981;
   --wafra-warning: #F59E0B;
   --wafra-danger: #EF4444;
@@ -1146,6 +1146,7 @@ header.app-header {
   font-weight: 500;
   margin: 0;
   font-family: inherit;
+  text-align: center;
 }
 
 /* شبكة المنتجات المضغوطة (متجرين في السطر للموبايل) */
