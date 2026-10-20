@@ -505,10 +505,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <span class="sponsored-badge">إعلان ممول</span>
                 <h3 style="font-size: 0.95rem; margin-top: 0.4rem; color: #111;">${product.productNameAr}</h3>
                 <div class="price-tag" style="font-size: 1.1rem; margin: 0.2rem 0;">${formatPiastres(offer.offerPricePiastres)}</div>
-                <p style="font-size: 0.75rem; color: #4B5563;">🏬 ${store?.storeNameAr || ''}</p>
+                <p style="font-size: 0.85rem; color: #111111; font-weight: bold;">🏬 ${store?.storeNameAr || ''}</p>
               </div>
               <div style="font-size: 0.7rem; color: #D97706; margin-top: 0.5rem; border-top: 1px solid #FEF3C7; padding-top: 0.25rem;">
-                📍 ${branch?.branchNameAr || ''}
+                📍 ${branch?.addressAr || ''}
               </div>
             </div>
           `;
@@ -558,7 +558,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <span class="offer-badge" style="font-size:0.7rem;">خصم خاص</span>
                 <h3 style="font-size: 0.95rem; margin-top: 0.4rem; color: #111;">${product.productNameAr}</h3>
                 <div class="price-tag" style="font-size: 1.1rem; margin: 0.2rem 0;">${formatPiastres(offer.offerPricePiastres)}</div>
-                <p style="font-size: 0.75rem; color: #4B5563;">🏬 ${store?.storeNameAr || ''}</p>
+                <p style="font-size: 0.85rem; color: #111111; font-weight: bold;">🏬 ${store?.storeNameAr || ''}</p>
+                <p style="font-size: 0.75rem; color: #6B7280;">📍${branch?.addressAr || ''}</p>
               </div>
               <div style="font-size: 0.7rem; color: #E31B23; margin-top: 0.5rem; border-top: 1px solid #E5E7EB; padding-top: 0.25rem;">
                 ⏳ حتى: ${offer.endDate}
@@ -655,7 +656,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </p>
                     <div class="price-tag">${formatPiastres(bestPrice.pricePiastres)}</div>
                     <p style="font-size: 0.85rem; font-weight: 600; color: #111111;">
-                      📍 ${store?.storeNameAr || ''} - ${branch?.branchNameAr || ''}
+                      ${store?.storeNameAr || ''}
+                    </p>
+                    <p style="font-size: 0.65rem; font-weight: 600; color: #777; padding-top:3px; padding-bottom:2px">
+                      📍${branch?.addressAr || ''}
                     </p>
                   </div>
                   <div class="meta-info">
@@ -897,7 +901,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                   ${product.brandAr || ''} - ${variant.packageSize} ${variant.unit}
                 </p>
                 <div class="price-tag">${formatPiastres(bestPrice.pricePiastres)}</div>
-                <p style="font-size: 0.85rem; font-weight: 600; color: #111111;">📍 ${branch ? branch.branchNameAr : ''}</p>
+                <p style="font-size: 0.85rem; font-weight: 600; color: #111111;">📍 ${branch ? branch.addressAr : ''}</p>
               </div>
               <div class="meta-info">
                 <div>📅 ${bestPrice.observationDate}</div>
@@ -955,7 +959,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </p>
                 <div class="price-tag">${formatPiastres(bestPrice.pricePiastres)}</div>
                 <p style="font-size: 0.85rem; font-weight: 600; color: #111111;">
-                  📍 ${store?.storeNameAr || ''} - ${branch?.branchNameAr || ''}
+                  ${store?.storeNameAr || ''}
+                </p>
+                <p style="font-size: 0.65rem; font-weight: 500; color: #6B7280;padding-top:3px; padding-bottom:2px">
+                  📍${branch?.addressAr || ''}
                 </p>
               </div>
               <div class="meta-info">
@@ -1009,7 +1016,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       html += `
         <div class="price-comparison-row" style="${isLowest ? 'border-color: #10B981; background-color: #ECFDF5;' : ''}">
           <div class="store-info-side">
-            <h4>🏬 ${store?.storeNameAr || ''} — ${branch?.branchNameAr || ''}</h4>
+            <h4>🏬 ${store?.storeNameAr || ''}</h4>
             <p>📍 ${branch?.addressAr || ''}</p>
             <span class="badge ${freshness.class}" style="margin-top: 0.5rem; display:inline-block;">${freshness.label}</span>
             ${isLowest ? '<span class="badge" style="background-color: #10B981; color: white; margin-right: 0.5rem;">🔥 أرخص سعر</span>' : ''}
@@ -1129,6 +1136,7 @@ document.addEventListener('DOMContentLoaded', async () => {
               <p style="font-size: 0.8rem; color: #E31B23; margin-top: 0.25rem;">📌 ${offer.conditionAr || ''}</p>
             </div>
             <div class="meta-info">
+              <div>⏳ يبدأ: ${offer.startDate}</div>
               <div>⏳ ساري حتى: ${offer.endDate}</div>
               <div>🔍 اضغط لمقارنة الأسعار</div>
             </div>
@@ -1183,7 +1191,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </p>
                 <div class="price-tag">${formatPiastres(bestPrice.pricePiastres)}</div>
                 <p style="font-size: 0.85rem; font-weight: 600; color: #111111;">
-                  📍 ${store?.storeNameAr || ''} - ${branch?.branchNameAr || ''}
+                      ${store?.storeNameAr || ''}
+                </p>
+                <p style="font-size: 0.65rem; font-weight: 600; color: #777; padding-top:3px; padding-bottom:2px">
+                  📍${branch?.addressAr || ''}
                 </p>
               </div>
               <div class="meta-info">

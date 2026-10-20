@@ -1,14 +1,14 @@
 [
   {
     "offerId": "off_002",
-    "variantId": "cow-meat-1kg",
-    "branchId": "putcher-khaled-newdamietta",
-    "offerPricePiastres": 40000,
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-30",
+    "variantId": "fish-bolti-green-1kg",
+    "branchId": "fish-ala-elbahr-newdamietta",
+    "offerPricePiastres": 15000,
+    "startDate": "01 أكتوبر",
+    "endDate": "30 أكتوبر",
     "conditionAr": "عرض خاص",
-    "homeOfferDisplay": false, 
-    "sponsored": false          
+    "homeOfferDisplay": true, 
+    "sponsored": true          
   },
   {
     "offerId": "off_002",
@@ -19,6 +19,6 @@
     "endDate": "2026-10-30",
     "conditionAr": "عرض خاص",
     "homeOfferDisplay": false, 
-    "sponsored": false          
+    "sponsored": true          
   }
 ]

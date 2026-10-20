@@ -20,7 +20,7 @@
 body {
   padding-top: 28px;
   margin: 0;
-  font-family: 'IBM Plex Sans Arabic', Tahoma, Arial, sans-serif;
+  font-family: 'Tajawal', sans-serif; /* تم تغيير اسم الخط هنا */
   direction: rtl;
   text-align: right;
   background-color: var(--wafra-gray-bg);
