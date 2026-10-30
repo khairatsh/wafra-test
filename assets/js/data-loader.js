@@ -10,7 +10,7 @@ function getDataFolder() {
 async function loadWafraData() {
   const dataFolder = getDataFolder();
   // مفتاح تخزين منفصل لكل دولة لمنع تداخل البيانات في الـ Cache
-  const CACHE_KEY = `wafra_offline_data_${dataFolder.replace('-', '_')}_v1`;
+  const CACHE_KEY = `wafra_offline_data_${dataFolder.replace('-', '_')}_v6`;
   
   try {
     // محاولة جلب البيانات من المجلد المحدد للدولة عبر الشبكة أو الخادم
@@ -42,6 +42,7 @@ async function loadWafraData() {
       manifest,
       locations: await loadJson(manifest.files.locations),
       categories: await loadJson(manifest.files.categories),
+      departments: (manifest.files && manifest.files.departments) ? await loadJson(manifest.files.departments) : [],
       products: products,
       stores: await loadJson(manifest.files.stores),
       branches: await loadJson(manifest.files.branches),

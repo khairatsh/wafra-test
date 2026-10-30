@@ -4,7 +4,7 @@ function calculateFreshness(observationDateStr) {
   const diffDays = Math.floor((now - obsDate) / (1000 * 60 * 60 * 24));
 
   if (diffDays <= 7) {
-    return { status: 'fresh', label: 'حديث (أقل من 7 أيام)', class: 'badge-fresh' };
+    return { status: 'fresh', label: 'حديث (7 أيام)', class: 'badge-fresh' };
   } else if (diffDays <= 30) {
     return { status: 'aging', label: 'مقبول (7-30 يوم)', class: 'badge-aging' };
   } else if (diffDays <= 90) {

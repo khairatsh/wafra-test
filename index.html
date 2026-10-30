@@ -2,14 +2,16 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#E31B23">
   <title>وفرة (Wafra) — مقارنة أسعار السلع في مصر</title>
   <!-- أيقونة الموقع (Favicon) -->
   <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/modern.css">
   <meta name="description" content="تطبيق مستقل لمقارنة أسعار المنتجات الاستهلاكية بين المتاجر والفروع في مصر.">
 </head>
 <body>
@@ -19,10 +21,8 @@
     <div class="loader-content">
       <img src="assets/images/logo.svg" alt="Wafra Logo" class="pulsing-logo">
       <div class="spinner"></div>
-      <p class="loader-text" style="text-align: center;"><b>وفر مع وَفرة</b></p>
-      <p class="loader-text" style="text-align: center;">جاري تحميل أفضل العروض بمدينتك ...</p>
-      <p class="loader-text"></p>
-      <p class="loader-text" style="border: solid 1px #6B7280; padding: 10px; color: #111111; border-radius: 10px; background-color: rgba(107, 114, 128, 0.1); font-size: 0.75rem;"><b style="color: #E31B23;">الأسعار استرشادية</b><br>قد تختلف قليلا بسبب تحديثات السوق اللحظية</p>
+      <p class="loader-text">وفر مع وَفرة ... جاري تحميل أفضل العروض بمدينتك</p>
+      <p class="loader-text"><b>الأسعار إسترشادية ... قد تختلف قليلا بسبب تحديثات السوق اللحظية</b></p>
     </div>
   </div>
 
@@ -67,24 +67,30 @@
 
     <!-- Navigation Bar -->
     <nav class="main-navbar">
-      <button id="nav-home-btn" class="nav-tab active">🏠 الرئيسية</button>
-      <button id="nav-stores-btn" class="nav-tab">🏬 المتاجر</button>
+      <button id="nav-home-btn" class="nav-tab active" type="button">
+        <span class="nav-icon" aria-hidden="true">🏠</span><span class="nav-label">الرئيسية</span>
+      </button>
+      <button id="nav-stores-btn" class="nav-tab" type="button">
+        <span class="nav-icon" aria-hidden="true">🏬</span><span class="nav-label">المتاجر</span>
+      </button>
       
       <!-- Categories Dropdown Menu -->
       <div class="nav-dropdown" id="nav-category-dropdown">
-        <button id="nav-category-btn" class="nav-tab nav-dropdown-toggle">
-          📁 الفئات <span class="arrow-down">▼</span>
+        <button id="nav-category-btn" class="nav-tab nav-dropdown-toggle" type="button">
+          <span class="nav-icon" aria-hidden="true">📁</span><span class="nav-label">الأقسام</span><span class="arrow-down" aria-hidden="true">▼</span>
         </button>
         <div id="category-dropdown-menu" class="dropdown-menu">
           <!-- Filled dynamically -->
         </div>
       </div>
 
-      <button id="nav-offers-btn" class="nav-tab">🏷️ العروض</button>
+      <button id="nav-offers-btn" class="nav-tab" type="button">
+        <span class="nav-icon" aria-hidden="true">🏷️</span><span class="nav-label">العروض</span>
+      </button>
     </nav>
     <div id="search-section-wrapper" class="search-section" style="position: relative;">
-      <input type="text" id="search-input" class="search-input" placeholder="ابحث عن اسم المنتج، العلامة التجارية، أو الفئة...">
-      <button id="search-btn" class="btn-primary">بحث</button>
+      <input type="text" id="search-input" class="search-input" placeholder="ابحث عن اسم المنتج، العلامة التجارية، أو الفئة..." autocomplete="off" aria-label="بحث عن منتج">
+      <button id="search-btn" class="btn-primary" type="button">بحث</button>
       <!-- قائمة اقتراحات البحث المنسدلة -->
       <div id="search-suggestions" class="search-suggestions-dropdown"></div>
     </div>
@@ -147,23 +153,23 @@
 
   <!-- نافذة اختيار الدولة عند أول زيارة (Welcome Country Modal) -->
   <div id="welcome-country-modal" class="location-modal-overlay">
-    <div class="location-modal-content" style="text-align: center;">
-      <div class="modal-header" style="justify-content: center; border: none; padding-bottom: 0;">
-        <h3 style="font-size: 1.2rem;">أهلاً بك في وَفرة 🛒</h3>
+    <div class="location-modal-content welcome-modal-content">
+      <div class="modal-header welcome-modal-header">
+        <h3 class="welcome-modal-title">أهلاً بك في وَفرة 🛒</h3>
       </div>
-      <p style="color: #6B7280; font-size: 0.9rem; margin-bottom: 1.5rem;">يرجى اختيار دولتك لتخصيص الأسعار والعروض:</p>
+      <p class="welcome-modal-subtitle">يرجى اختيار دولتك لتخصيص الأسعار والعروض:</p>
       
-      <div style="display: flex; gap: 1rem; justify-content: center;">
+      <div class="country-choice-grid">
         <!-- زر مصر -->
-        <button onclick="selectCountry('eg')" style="flex: 1; padding: 1rem; border: 2px solid #E5E7EB; border-radius: 12px; background: #fff; cursor: pointer; transition: 0.2s;" onmouseover="this.style.borderColor='#E31B23'" onmouseout="this.style.borderColor='#E5E7EB'">
-          <img src="https://flagcdn.com/w80/eg.png" alt="مصر" style="width: 50px; height: 35px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem; display: block; margin-inline: auto;">
-          <span style="font-weight: 700; color: #111;">مصر 🇪🇬</span>
+        <button type="button" onclick="selectCountry('eg')" class="country-choice-btn">
+          <img src="https://flagcdn.com/w80/eg.png" alt="مصر" class="country-choice-flag">
+          <span class="country-choice-name">مصر 🇪🇬</span>
         </button>
 
         <!-- زر السعودية -->
-        <button onclick="selectCountry('sa')" style="flex: 1; padding: 1rem; border: 2px solid #E5E7EB; border-radius: 12px; background: #fff; cursor: pointer; transition: 0.2s;" onmouseover="this.style.borderColor='#E31B23'" onmouseout="this.style.borderColor='#E5E7EB'">
-          <img src="https://flagcdn.com/w80/sa.png" alt="السعودية" style="width: 50px; height: 35px; object-fit: cover; border-radius: 4px; margin-bottom: 0.5rem; display: block; margin-inline: auto;">
-          <span style="font-weight: 700; color: #111;">السعودية 🇸🇦</span>
+        <button type="button" onclick="selectCountry('sa')" class="country-choice-btn">
+          <img src="https://flagcdn.com/w80/sa.png" alt="السعودية" class="country-choice-flag">
+          <span class="country-choice-name">السعودية 🇸🇦</span>
         </button>
       </div>
     </div>

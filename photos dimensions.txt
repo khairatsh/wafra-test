@@ -1,0 +1,5 @@
+ad banner = 3:1 ( 1200 * 400 : 450 ) w * h
+
+Store Photo = 3 : 4  w * h
+
+product photo = 4 : 3 w * h

@@ -1,11 +1,1854 @@
 [
   {
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "storeId": "fish-ala-elbahr",
-    "branchNameAr": "عنيزة",
-    "governorateId": "gov_Qassim",
-    "cityId": "city_unaizah",
-    "addressAr": "آخر شارع هلالة",
-    "tasneed": "fish"
+    "branchId": "lulu-hypermarket-a",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-riyad",
+    "cityId": "riyad",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g1"
+  },
+  {
+    "branchId": "lulu-hypermarket-a",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-riyad",
+    "cityId": "kharj",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g1"
+  },
+  {
+    "branchId": "lulu-hypermarket-a",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-hail",
+    "cityId": "hail",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g1"
+  },
+  {
+    "branchId": "lulu-hypermarket-a",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-qassim",
+    "cityId": "unaizah",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g1"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-mecca",
+    "cityId": "mecca",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-mecca",
+    "cityId": "gedda",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-mecca",
+    "cityId": "taief",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-madina",
+    "cityId": "yanbu",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-madina",
+    "cityId": "madina",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-aseer",
+    "cityId": "khamismesheet",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-b",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-tabuk",
+    "cityId": "tabuk",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g2"
+  },
+  {
+    "branchId": "lulu-hypermarket-c",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-sharkia",
+    "cityId": "dammam",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g3"
+  },
+  {
+    "branchId": "lulu-hypermarket-c",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-sharkia",
+    "cityId": "khobar",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g3"
+  },
+  {
+    "branchId": "lulu-hypermarket-c",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-sharkia",
+    "cityId": "hafrbatin",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g3"
+  },
+  {
+    "branchId": "lulu-hypermarket-c",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g3"
+  },
+  {
+    "branchId": "lulu-hypermarket-c",
+    "storeId": "lulu-hypermarket",
+    "branchNameAr": "لولو هايبرماركت",
+    "governorateId": "sa-sharkia",
+    "cityId": "gubail",
+    "addressAr": "غير متاح",
+    "category": "supermarket",
+    "branchGroupId": "lulu-g3"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-mecca",
+    "cityId": "gedda",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-riyad",
+    "cityId": "riyad",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-qassim",
+    "cityId": "badaie",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-baha",
+    "cityId": "baha",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-qassim",
+    "cityId": "bakeria",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-riyad",
+    "cityId": "kharj",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-riyad",
+    "cityId": "magmaa",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-qassim",
+    "cityId": "rass",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-aseer",
+    "cityId": "bisha",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-qassim",
+    "cityId": "unaizah",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-qassim",
+    "cityId": "buraidah",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-sharkia",
+    "cityId": "dammam",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-riyad",
+    "cityId": "dawadmi",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-sharkia",
+    "cityId": "hafrbatin",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-hail",
+    "cityId": "hail",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "panda-hypermarket-all",
+    "storeId": "panda-hypermarket",
+    "branchNameAr": "هايبر بندة",
+    "governorateId": "sa-jazan",
+    "cityId": "jazan",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "riyad",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "kharj",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "magmaa",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "dawadmi",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "deria",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "wadidwaser",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "zelfi",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "hotbanitamim",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-riyad",
+    "cityId": "afif",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-mecca",
+    "cityId": "mecca",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-mecca",
+    "cityId": "gedda",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-mecca",
+    "cityId": "taief",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-mecca",
+    "cityId": "rabigh",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-madina",
+    "cityId": "madina",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-madina",
+    "cityId": "yanbu",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-qassim",
+    "cityId": "unaizah",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-qassim",
+    "cityId": "buraidah",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-qassim",
+    "cityId": "rass",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-qassim",
+    "cityId": "methnib",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-qassim",
+    "cityId": "bakeria",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-qassim",
+    "cityId": "badaie",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-sharkia",
+    "cityId": "dammam",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-sharkia",
+    "cityId": "khobar",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-sharkia",
+    "cityId": "hafrbatin",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-sharkia",
+    "cityId": "gubail",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-sharkia",
+    "cityId": "qateif",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-aseer",
+    "cityId": "khamismesheet",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-aseer",
+    "cityId": "abha",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-aseer",
+    "cityId": "bisha",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-aseer",
+    "cityId": "mahayelaseer",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-tabuk",
+    "cityId": "tabuk",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-hail",
+    "cityId": "hail",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-hododshamalia",
+    "cityId": "arar",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-jazan",
+    "cityId": "jazan",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-jazan",
+    "cityId": "sibia",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-jazan",
+    "cityId": "samta",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-najran",
+    "cityId": "najran",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-jouf",
+    "cityId": "skaka",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-jouf",
+    "cityId": "qirryat",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "othaim-hypermarket-all",
+    "storeId": "othaim-hypermarket",
+    "branchNameAr": "أسواق العثيم",
+    "governorateId": "sa-baha",
+    "cityId": "baha",
+    "addressAr": "غير متاح",
+    "category": "supermarket"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "riyad",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "kharj",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "magmaa",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "dawadmi",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "deria",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "wadidwaser",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "zelfi",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "hotbanitamim",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "afif",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-riyad",
+    "cityId": "ghat",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-mecca",
+    "cityId": "mecca",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-mecca",
+    "cityId": "gedda",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-mecca",
+    "cityId": "taief",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-mecca",
+    "cityId": "rabigh",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-madina",
+    "cityId": "madina",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-madina",
+    "cityId": "yanbu",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-madina",
+    "cityId": "ola",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-qassim",
+    "cityId": "unaizah",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-qassim",
+    "cityId": "buraidah",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-qassim",
+    "cityId": "rass",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-qassim",
+    "cityId": "methnib",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-qassim",
+    "cityId": "bakeria",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-qassim",
+    "cityId": "badaie",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-sharkia",
+    "cityId": "dammam",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-sharkia",
+    "cityId": "khobar",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-sharkia",
+    "cityId": "hafrbatin",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-sharkia",
+    "cityId": "gubail",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-sharkia",
+    "cityId": "qateif",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-aseer",
+    "cityId": "khamismesheet",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-aseer",
+    "cityId": "abha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-aseer",
+    "cityId": "bisha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-aseer",
+    "cityId": "mahayelaseer",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-tabuk",
+    "cityId": "tabuk",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-hail",
+    "cityId": "hail",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-hododshamalia",
+    "cityId": "arar",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-jazan",
+    "cityId": "jazan",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-jazan",
+    "cityId": "sibia",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-jazan",
+    "cityId": "samta",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-najran",
+    "cityId": "najran",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-jouf",
+    "cityId": "skaka",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-jouf",
+    "cityId": "qirryat",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "nahdi-pharmacy-all",
+    "storeId": "nahdi-pharmacy",
+    "branchNameAr": "صيدليات النهدي",
+    "governorateId": "sa-baha",
+    "cityId": "baha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "riyad",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "kharj",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "magmaa",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "dawadmi",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "deria",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "wadidwaser",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "zelfi",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "hotbanitamim",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "afif",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-riyad",
+    "cityId": "ghat",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-mecca",
+    "cityId": "mecca",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-mecca",
+    "cityId": "gedda",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-mecca",
+    "cityId": "taief",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-mecca",
+    "cityId": "rabigh",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-madina",
+    "cityId": "madina",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-madina",
+    "cityId": "yanbu",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-madina",
+    "cityId": "ola",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-qassim",
+    "cityId": "unaizah",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-qassim",
+    "cityId": "buraidah",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-qassim",
+    "cityId": "rass",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-qassim",
+    "cityId": "methnib",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-qassim",
+    "cityId": "bakeria",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-qassim",
+    "cityId": "badaie",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-sharkia",
+    "cityId": "dammam",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-sharkia",
+    "cityId": "khobar",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-sharkia",
+    "cityId": "hafrbatin",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-sharkia",
+    "cityId": "gubail",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-sharkia",
+    "cityId": "qateif",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-aseer",
+    "cityId": "khamismesheet",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-aseer",
+    "cityId": "abha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-aseer",
+    "cityId": "bisha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-aseer",
+    "cityId": "mahayelaseer",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-tabuk",
+    "cityId": "tabuk",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-hail",
+    "cityId": "hail",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-hododshamalia",
+    "cityId": "arar",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-jazan",
+    "cityId": "jazan",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-jazan",
+    "cityId": "sibia",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-jazan",
+    "cityId": "samta",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-najran",
+    "cityId": "najran",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-jouf",
+    "cityId": "skaka",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-jouf",
+    "cityId": "qirryat",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "motaheda-pharmacy-all",
+    "storeId": "motaheda-pharmacy",
+    "branchNameAr": "صيدليات المتحدة",
+    "governorateId": "sa-baha",
+    "cityId": "baha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "riyad",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "kharj",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "magmaa",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "dawadmi",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "deria",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "wadidwaser",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "zelfi",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "hotbanitamim",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "afif",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-riyad",
+    "cityId": "ghat",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-mecca",
+    "cityId": "mecca",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-mecca",
+    "cityId": "gedda",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-mecca",
+    "cityId": "taief",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-mecca",
+    "cityId": "rabigh",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-madina",
+    "cityId": "madina",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-madina",
+    "cityId": "yanbu",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-madina",
+    "cityId": "ola",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-qassim",
+    "cityId": "unaizah",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-qassim",
+    "cityId": "buraidah",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-qassim",
+    "cityId": "rass",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-qassim",
+    "cityId": "methnib",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-qassim",
+    "cityId": "bakeria",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-qassim",
+    "cityId": "badaie",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-sharkia",
+    "cityId": "dammam",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-sharkia",
+    "cityId": "khobar",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-sharkia",
+    "cityId": "hafrbatin",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-sharkia",
+    "cityId": "ihsaa",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-sharkia",
+    "cityId": "gubail",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-sharkia",
+    "cityId": "qateif",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-aseer",
+    "cityId": "khamismesheet",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-aseer",
+    "cityId": "abha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-aseer",
+    "cityId": "bisha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-aseer",
+    "cityId": "mahayelaseer",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-tabuk",
+    "cityId": "tabuk",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-hail",
+    "cityId": "hail",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-hododshamalia",
+    "cityId": "arar",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-jazan",
+    "cityId": "jazan",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-jazan",
+    "cityId": "sibia",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-jazan",
+    "cityId": "samta",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-najran",
+    "cityId": "najran",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-jouf",
+    "cityId": "skaka",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-jouf",
+    "cityId": "qirryat",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
+  },
+  {
+    "branchId": "aldawaa-pharmacy",
+    "storeId": "aldawaa-pharmacy",
+    "branchNameAr": "صيدليات الدواء",
+    "governorateId": "sa-baha",
+    "cityId": "baha",
+    "addressAr": "غير متاح",
+    "category": "pharmacy"
   }
 ]

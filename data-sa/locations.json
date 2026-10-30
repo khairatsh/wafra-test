@@ -1,10 +1,252 @@
 [
   {
-    "governorateId": "gov_Qassim",
+    "governorateId": "sa-riyad",
+    "governorateNameAr": "الرياض",
+    "cities": [
+      {
+        "cityId": "riyad",
+        "cityNameAr": "الرياض"
+      },
+      {
+        "cityId": "kharj",
+        "cityNameAr": "الخرج"
+      },
+      {
+        "cityId": "magmaa",
+        "cityNameAr": "المجمعة"
+      },
+      {
+        "cityId": "dawadmi",
+        "cityNameAr": "الدوادمي"
+      },
+      {
+        "cityId": "deria",
+        "cityNameAr": "الدرعية"
+      },
+      {
+        "cityId": "wadidwaser",
+        "cityNameAr": "وادي الدواسر"
+      },
+      {
+        "cityId": "zelfi",
+        "cityNameAr": "الزلفي"
+      },
+      {
+        "cityId": "hotbanitamim",
+        "cityNameAr": "حوطة بني تميم"
+      },
+      {
+        "cityId": "afif",
+        "cityNameAr": "عفيف"
+      },
+      {
+        "cityId": "ghat",
+        "cityNameAr": "الغاط"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-mecca",
+    "governorateNameAr": "مكة المكرمة",
+    "cities": [
+      {
+        "cityId": "mecca",
+        "cityNameAr": "مكة المكرمة"
+      },
+      {
+        "cityId": "gedda",
+        "cityNameAr": "جدة"
+      },
+      {
+        "cityId": "taief",
+        "cityNameAr": "الطائف"
+      },
+      {
+        "cityId": "rabigh",
+        "cityNameAr": "رابغ"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-madina",
+    "governorateNameAr": "المدينة المنورة",
+    "cities": [
+      {
+        "cityId": "madina",
+        "cityNameAr": "المدينة المنورة"
+      },
+      {
+        "cityId": "yanbu",
+        "cityNameAr": "ينبع"
+      },
+      {
+        "cityId": "ola",
+        "cityNameAr": "العلا"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-qassim",
     "governorateNameAr": "القصيم",
     "cities": [
-      { "cityId": "city_unaizah", "cityNameAr": "عنيزة" },
-      { "cityId": "city_buraidah", "cityNameAr": "بريدة" }
+      {
+        "cityId": "unaizah",
+        "cityNameAr": "عنيزة"
+      },
+      {
+        "cityId": "buraidah",
+        "cityNameAr": "بريدة"
+      },
+      {
+        "cityId": "rass",
+        "cityNameAr": "الرس"
+      },
+      {
+        "cityId": "methnib",
+        "cityNameAr": "المذنب"
+      },
+      {
+        "cityId": "bakeria",
+        "cityNameAr": "البكيرية"
+      },
+      {
+        "cityId": "badaie",
+        "cityNameAr": "البدائع"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-sharkia",
+    "governorateNameAr": "المنطقة الشرقية",
+    "cities": [
+      {
+        "cityId": "dammam",
+        "cityNameAr": "الدمام"
+      },
+      {
+        "cityId": "khobar",
+        "cityNameAr": "الخبر"
+      },
+      {
+        "cityId": "hafrbatin",
+        "cityNameAr": "حفر الباطن"
+      },
+      {
+        "cityId": "ihsaa",
+        "cityNameAr": "الإحساء"
+      },
+      {
+        "cityId": "gubail",
+        "cityNameAr": "الجبيل"
+      },
+      {
+        "cityId": "qateif",
+        "cityNameAr": "القطيف"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-aseer",
+    "governorateNameAr": "عسير",
+    "cities": [
+      {
+        "cityId": "khamismesheet",
+        "cityNameAr": "خميس مشيط"
+      },
+      {
+        "cityId": "abha",
+        "cityNameAr": "أبها"
+      },
+      {
+        "cityId": "bisha",
+        "cityNameAr": "بيشة"
+      },
+      {
+        "cityId": "mahayelaseer",
+        "cityNameAr": "محايل عسير"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-tabuk",
+    "governorateNameAr": "تبوك",
+    "cities": [
+      {
+        "cityId": "tabuk",
+        "cityNameAr": "تبوك"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-hail",
+    "governorateNameAr": "حائل",
+    "cities": [
+      {
+        "cityId": "hail",
+        "cityNameAr": "حائل"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-hododshamalia",
+    "governorateNameAr": "الحدود الشمالية",
+    "cities": [
+      {
+        "cityId": "arar",
+        "cityNameAr": "عرعر"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-jazan",
+    "governorateNameAr": "جازان",
+    "cities": [
+      {
+        "cityId": "jazan",
+        "cityNameAr": "جازان"
+      },
+      {
+        "cityId": "sibia",
+        "cityNameAr": "صبيا"
+      },
+      {
+        "cityId": "samta",
+        "cityNameAr": "صامطة"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-najran",
+    "governorateNameAr": "نجران",
+    "cities": [
+      {
+        "cityId": "najran",
+        "cityNameAr": "نجران"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-jouf",
+    "governorateNameAr": "الجوف",
+    "cities": [
+      {
+        "cityId": "skaka",
+        "cityNameAr": "سكاكا"
+      },
+      {
+        "cityId": "qirryat",
+        "cityNameAr": "القريات"
+      }
+    ]
+  },
+  {
+    "governorateId": "sa-baha",
+    "governorateNameAr": "الباحة",
+    "cities": [
+      {
+        "cityId": "baha",
+        "cityNameAr": "الباحة"
+      }
     ]
   }
 ]

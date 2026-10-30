@@ -1,82 +1,111 @@
 [
   {
-    "priceId": "fish-bolti-normal",
-    "variantId": "fish-bolti-normal-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 9000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g1_sadia",
+    "variantId": "sadia-broast-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g1",
+    "pricePiastres": 1500,
+    "regularPricePiastres": 1900,
+    "priceType": "weekly_offer",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مخفض (عرض أسبوعي) - مجموعة الرياض والقصيم وحائل"
   },
   {
-    "priceId": "fish-bolti-green",
-    "variantId": "fish-bolti-green-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 15000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g2_sadia",
+    "variantId": "sadia-broast-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g2",
+    "pricePiastres": 1650,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة مكة وجدة والمدينة والطائف"
   },
   {
-    "priceId": "fish-sardine",
-    "variantId": "fish-sardine-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 12000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g3_sadia",
+    "variantId": "sadia-broast-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g3",
+    "pricePiastres": 1750,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة المنطقة الشرقية"
   },
   {
-    "priceId": "fish-tobara",
-    "variantId": "fish-tobara-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 16000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g1_americana",
+    "variantId": "americana-broast-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g1",
+    "pricePiastres": 2000,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة الرياض والقصيم وحائل"
   },
   {
-    "priceId": "fish-balameta",
-    "variantId": "fish-balameta-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 16000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g2_americana",
+    "variantId": "americana-broast-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g2",
+    "pricePiastres": 2100,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة مكة وجدة والمدينة والطائف"
   },
   {
-    "priceId": "fish-bori",
-    "variantId": "fish-bori-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 25000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g3_americana",
+    "variantId": "americana-broast-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g3",
+    "pricePiastres": 2200,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة المنطقة الشرقية"
   },
   {
-    "priceId": "fish-macrel",
-    "variantId": "fish-macrel-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 25000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g1_liver",
+    "variantId": "cow-meat-liver-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g1",
+    "pricePiastres": 4500,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة الرياض والقصيم وحائل"
   },
   {
-    "priceId": "fish-seheli",
-    "variantId": "fish-seheli-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 35000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g2_liver",
+    "variantId": "cow-meat-liver-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g2",
+    "pricePiastres": 4700,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة مكة وجدة والمدينة والطائف"
   },
   {
-    "priceId": "fish-barboni",
-    "variantId": "fish-barboni-1kg",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 30000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_lulu_g3_liver",
+    "variantId": "cow-meat-liver-1kg",
+    "storeId": "lulu-hypermarket",
+    "branchGroupId": "lulu-g3",
+    "pricePiastres": 4900,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر مجموعة المنطقة الشرقية"
   },
   {
-    "priceId": "fish-gambari",
-    "variantId": "fish-gambari-1k",
-    "branchId": "fish-ala-elbahr-newdamietta",
-    "pricePiastres": 40000,
-    "observationDate": "2026-09-23",
-    "sourceAr": "سوشيال ميديا"
+    "priceId": "price_panda_sadia",
+    "variantId": "sadia-broast-1kg",
+    "storeId": "panda-hypermarket",
+    "pricePiastres": 2150,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر عام - هايبر بندة"
+  },
+  {
+    "priceId": "price_panda_americana",
+    "variantId": "americana-broast-1kg",
+    "storeId": "panda-hypermarket",
+    "pricePiastres": 2100,
+    "priceType": "regular",
+    "observationDate": "2026-10-28",
+    "sourceAr": "سعر عام - هايبر بندة"
   }
 ]

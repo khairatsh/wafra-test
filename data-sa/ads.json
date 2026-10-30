@@ -3,26 +3,65 @@
     "adId": "ad_001",
     "imageUrl": "https://iili.io/nhuW1Nn.png",
     "titleAr": "وفرة ... أقوى عروض في السعودية",
+    "subtitleAr": "قارن أسعار المنتجات والعروض في مدينتك قبل ما تشتري.",
+    "kickerAr": "عروض هذا الأسبوع",
+    "badgeAr": "إعلان",
     "ctaTextAr": "اعرف المزيد",
-    "targetType": "external",    
+    "targetType": "external",
     "targetValue": "https://khairatsh.github.io/wafra-test/",
-    "scope": "all"
-  },{
+    "scope": "all",
+    "placement": "home_hero",
+    "priority": 10,
+    "sponsored": true,
+    "active": true
+  },
+  {
     "adId": "ad_002",
     "imageUrl": "https://iili.io/nhuWl9t.png",
     "titleAr": "قارن الأسعار",
+    "subtitleAr": "أسعار المتاجر والفروع القريبة منك في مكان واحد.",
+    "kickerAr": "داخل القصيم",
+    "badgeAr": "إعلان",
     "ctaTextAr": "اعرف المزيد",
-    "targetType": "external",    
+    "targetType": "external",
     "targetValue": "https://khairatsh.github.io/wafra-test/",
-    "governorateId": "gov_Qassim"
+    "scope": "governorate",
+    "governorateId": "sa-qassim",
+    "placement": "home_hero",
+    "priority": 8,
+    "sponsored": true,
+    "active": true
   },
   {
     "adId": "ad_003",
     "imageUrl": "https://iili.io/nhuWaSI.png",
     "titleAr": "في كل مكان",
+    "subtitleAr": "تصفح منتجات المتجر وأسعاره داخل مدينتك.",
+    "kickerAr": "عرض محلي",
+    "badgeAr": "إعلان",
     "ctaTextAr": "تصفح المتجر",
-    "targetType": "store",      
-    "targetValue": "putcher-mashad",
-    "cityId": "city_unaizah"
-  } 
+    "targetType": "store",
+    "targetValue": "lulu-hypermarket",
+    "scope": "city",
+    "cityId": "unaizah",
+    "placement": "home_hero",
+    "priority": 6,
+    "sponsored": true,
+    "active": true
+  },
+  {
+    "adId": "ad_004",
+    "imageUrl": "https://iili.io/nhuW1Nn.png",
+    "titleAr": "وفّر أكثر مع عروض وفرة",
+    "subtitleAr": "باكدجات وعروض كمية وقيمة مضافة من متاجر مدينتك.",
+    "kickerAr": "عروض مميزة",
+    "badgeAr": "إعلان",
+    "ctaTextAr": "تصفح العروض",
+    "targetType": "offers",
+    "scope": "all",
+    "placement": "offers_top",
+    "priority": 10,
+    "sponsored": true,
+    "active": true
+  }
 ]

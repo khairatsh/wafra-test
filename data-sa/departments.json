@@ -1,0 +1,58 @@
+[
+  {
+    "departmentId": "dept_grocery",
+    "departmentNameAr": "سوبر ماركت",
+    "icon": "🛒",
+    "sortOrder": 1,
+    "active": true
+  },
+  {
+    "departmentId": "dept_fresh",
+    "departmentNameAr": "لحوم ودواجن وأسماك",
+    "icon": "🥩",
+    "sortOrder": 2,
+    "active": true
+  },
+  {
+    "departmentId": "dept_restaurants",
+    "departmentNameAr": "مطاعم ومقاهي",
+    "icon": "☕",
+    "sortOrder": 3,
+    "active": true
+  },
+  {
+    "departmentId": "dept_electronics",
+    "departmentNameAr": "إلكترونيات",
+    "icon": "📱",
+    "sortOrder": 4,
+    "active": true
+  },
+  {
+    "departmentId": "dept_home_appliances",
+    "departmentNameAr": "أجهزة منزلية",
+    "icon": "🔌",
+    "sortOrder": 5,
+    "active": true
+  },
+  {
+    "departmentId": "dept_furniture",
+    "departmentNameAr": "أثاث ومفروشات",
+    "icon": "🛋️",
+    "sortOrder": 6,
+    "active": true
+  },
+  {
+    "departmentId": "dept_health_beauty",
+    "departmentNameAr": "صحة وجمال",
+    "icon": "💊",
+    "sortOrder": 7,
+    "active": true
+  },
+  {
+    "departmentId": "dept_home_supplies",
+    "departmentNameAr": "منزل ومستلزمات",
+    "icon": "🧹",
+    "sortOrder": 8,
+    "active": true
+  }
+]

@@ -5,7 +5,7 @@
   --wafra-gray-bg: #F8F9FA;
   --wafra-border: #E5E7EB;
   --wafra-text: #1F2937;
-  --wafra-muted: #6b7280;
+  --wafra-muted: #6B7280;
   --wafra-success: #10B981;
   --wafra-warning: #F59E0B;
   --wafra-danger: #EF4444;
@@ -60,13 +60,13 @@ header {
 .header-location-trigger {
   display: flex;
   align-items: center;
-  gap: 6px;
-  background: var(--wafra-red);
-  padding: 6px 14px;
+  gap: 2px;
+  background: var(--wafra-white);
+  padding: 0px 0px;
   border-radius: 20px;
-  color: white;
+  color: var(--wafra-red);
   cursor: pointer;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 500;
   transition: background 0.2s, transform 0.1s;
 }
@@ -82,6 +82,7 @@ header {
 .arrow-icon {
   font-size: 0.65rem;
   opacity: 0.8;
+  padding-right: 5px;
 }
 
 /* نافذة اختيار العنوان (Popup Modal) */
@@ -273,7 +274,7 @@ main {
   overflow: hidden;
   border-radius: 6px;
   margin-bottom: 0.75rem;
-  background-color: #F3F4F6;
+  background-color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +285,8 @@ main {
 .card-image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  padding: 8px;
+  object-fit: contain;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -310,6 +312,14 @@ main {
   border-radius: 4px;
   font-size: 0.75rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.badge2 {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
@@ -622,6 +632,7 @@ footer {
 
 .price-info-side {
   text-align: left;
+  width: 50%;
 }
 
 .price-info-side .price-tag {
@@ -1146,7 +1157,6 @@ header.app-header {
   font-weight: 500;
   margin: 0;
   font-family: inherit;
-  text-align: center;
 }
 
 /* شبكة المنتجات المضغوطة (متجرين في السطر للموبايل) */
@@ -1192,7 +1202,7 @@ header.app-header {
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 0.4rem;
-  background: #F3F4F6;
+  background: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1201,7 +1211,8 @@ header.app-header {
 .compact-product-card .card-image-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  padding: 8px;
+  object-fit: contain;
 }
 
 .compact-product-card h3 {
@@ -1353,4 +1364,165 @@ header {
 
 .country-item.active {
   background-color: #FEE2E2;
+}
+
+/* ==========================================
+   🌟 بطاقات عروض الباكدجات (فصل العروض عن الأسعار)
+   ========================================== */
+.bundle-offer-card {
+  border: 1px solid var(--wafra-red);
+  border-radius: 10px;
+  background: var(--wafra-white);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bundle-offer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(227, 27, 35, 0.12);
+}
+
+/* داخل السلايدرات الأفقية في الرئيسية نحتاج عرضاً ثابتاً للبطاقة */
+.offers-slider > .bundle-offer-card {
+  min-width: 240px;
+  max-width: 240px;
+  flex: 0 0 auto;
+}
+
+.offer-type-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  margin-bottom: 0.3rem;
+}
+
+.offer-type-badge.bundle {
+  background: #FFF7ED;
+  color: #C2410C;
+  border: 1px solid #FED7AA;
+}
+
+.offer-type-badge.value {
+  background: #ECFDF5;
+  color: #047857;
+  border: 1px solid #A7F3D0;
+}
+
+.offer-type-badge.store {
+  background: #EEF2FF;
+  color: #3730A3;
+  border: 1px solid #C7D2FE;
+}
+
+.store-offer-card {
+  border-color: #4F46E5;
+}
+
+.store-offer-card:hover {
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.18);
+}
+
+.store-offer-logo {
+  height: 110px;
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F9FAFB;
+  border-radius: 8px;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+}
+
+.store-offer-logo img {
+  max-width: 75%;
+  max-height: 75%;
+  object-fit: contain;
+}
+
+.offer-product-meta {
+  font-size: 0.8rem;
+  color: var(--wafra-muted);
+  margin-bottom: 0.25rem;
+}
+
+.bundle-qty-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.bundle-qty-badge {
+  background: var(--wafra-black);
+  color: var(--wafra-white);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.bundle-total {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--wafra-red);
+}
+
+.bundle-unit-price {
+  font-size: 0.78rem;
+  color: #374151;
+  font-weight: 700;
+  margin-top: 0.15rem;
+}
+
+.offer-condition {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #7C2D12;
+  background: #FFF7ED;
+  border-radius: 8px;
+  padding: 0.4rem 0.5rem;
+  margin-top: 0.45rem;
+  line-height: 1.4;
+}
+
+.offer-store {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--wafra-black);
+  margin-top: 0.35rem;
+}
+
+.offer-saving {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #047857;
+  background: #ECFDF5;
+  border-radius: 8px;
+  padding: 0.25rem 0.45rem;
+  margin-top: 0.35rem;
+  display: inline-block;
+}
+
+.old-price {
+  font-size: 0.78rem;
+  color: var(--wafra-muted);
+  text-decoration: line-through;
+  font-weight: 600;
+  margin-top: 0.15rem;
+}
+
+.badge-promo {
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FDE68A;
+  font-size: 0.68rem;
+  margin-top: 0.2rem;
 }

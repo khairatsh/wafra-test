@@ -1,24 +1,28 @@
 [
   {
-    "offerId": "off_002",
+    "offerId": "bundle_001",
+    "offerType": "bundle",
     "variantId": "fish-bolti-green-1kg",
     "branchId": "fish-ala-elbahr-newdamietta",
-    "offerPricePiastres": 15000,
-    "startDate": "01 أكتوبر",
-    "endDate": "30 أكتوبر",
-    "conditionAr": "عرض خاص",
-    "homeOfferDisplay": true, 
-    "sponsored": true          
+    "conditionAr": "اشترِ 3 كجم بسعر 400 جنيه",
+    "bundleQuantity": 3,
+    "bundlePricePiastres": 40000,
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-10",
+    "homeOfferDisplay": true,
+    "sponsored": true
   },
   {
-    "offerId": "off_002",
+    "offerId": "bundle_002",
+    "offerType": "bundle",
     "variantId": "cow-meat-liver-1kg",
     "branchId": "putcher-mashad-newdamietta",
-    "offerPricePiastres": 39000,
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-30",
-    "conditionAr": "عرض خاص",
-    "homeOfferDisplay": false, 
-    "sponsored": true          
+    "conditionAr": "كيلوجرامان من الكبدة بسعر 700 جنيه",
+    "bundleQuantity": 2,
+    "bundlePricePiastres": 70000,
+    "startDate": "2026-10-25",
+    "endDate": "2026-11-08",
+    "homeOfferDisplay": true,
+    "sponsored": false
   }
 ]

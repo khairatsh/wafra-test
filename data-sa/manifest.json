@@ -1,9 +1,10 @@
 {
-  "schemaVersion": 1,
-  "dataVersion": "2026.10.20.001",
+  "schemaVersion": 2,
+  "dataVersion": "2026.10.30.006",
   "files": {
     "locations": "locations.json",
     "categories": "categories.json",
+    "departments": "departments.json",
     "products": "products.json",
     "stores": "stores.json",
     "branches": "branches.json",

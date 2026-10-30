@@ -1,8 +1,32 @@
 [
-  { "categoryId": "cat_meat", "categoryNameAr": "لحوم ومصنعاتها" },
-  { "categoryId": "cat_poultary", "categoryNameAr": "دواجن طازجة" },
-  { "categoryId": "cat_fish", "categoryNameAr": "أسماك طازجة" },
-  { "categoryId": "cat_pharmacy", "categoryNameAr": "عناية الأم والطفل" },
-  { "categoryId": "cat_supermarket", "categoryNameAr": "سوبر ماركت" },
-  { "categoryId": "cat_dairy", "categoryNameAr": "منتجات ألبان" }
+  {
+    "categoryId": "cat_meat",
+    "categoryNameAr": "لحوم ومصنعاتها",
+    "departmentId": "dept_fresh"
+  },
+  {
+    "categoryId": "cat_poultary",
+    "categoryNameAr": "دواجن ومصنعاتها",
+    "departmentId": "dept_fresh"
+  },
+  {
+    "categoryId": "cat_fish",
+    "categoryNameAr": "أسماك طازجة",
+    "departmentId": "dept_fresh"
+  },
+  {
+    "categoryId": "cat_pharmacy",
+    "categoryNameAr": "عناية الأم والطفل",
+    "departmentId": "dept_health_beauty"
+  },
+  {
+    "categoryId": "cat_supermarket",
+    "categoryNameAr": "سوبر ماركت",
+    "departmentId": "dept_grocery"
+  },
+  {
+    "categoryId": "cat_dairy",
+    "categoryNameAr": "منتجات ألبان",
+    "departmentId": "dept_grocery"
+  }
 ]
