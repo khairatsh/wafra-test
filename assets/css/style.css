@@ -308,11 +308,12 @@ main {
 
 .badge {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.25rem;
   border-radius: 4px;
   font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 .badge2 {
   display: inline-block;
@@ -333,6 +334,7 @@ main {
   font-weight: 700;
   color: var(--wafra-red);
   margin: 0.5rem 0;
+  text-align: center;
 }
 
 .meta-info {
@@ -1517,6 +1519,7 @@ header {
   text-decoration: line-through;
   font-weight: 600;
   margin-top: 0.15rem;
+  text-align: right;
 }
 
 .badge-promo {
@@ -1525,4 +1528,5 @@ header {
   border: 1px solid #FDE68A;
   font-size: 0.68rem;
   margin-top: 0.2rem;
+  text-align: center;
 }
