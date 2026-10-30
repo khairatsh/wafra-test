@@ -13,6 +13,23 @@
   }
 })();
 
+// 100vh في الموبايل قد يمتد تحت شريط المتصفح ويخفي زر التأكيد.
+// نضبط متغيراً بالارتفاع المرئي الفعلي، مع fallback إلى 100dvh/100vh.
+(function syncAppViewportHeight() {
+  const root = document.documentElement;
+  const applyHeight = () => {
+    const height = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+    if (height > 0) root.style.setProperty('--app-vh', `${height}px`);
+  };
+
+  applyHeight();
+  window.addEventListener('resize', applyHeight);
+  window.addEventListener('orientationchange', applyHeight);
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', applyHeight);
+  }
+})();
+
 document.addEventListener('DOMContentLoaded', async () => {
   const data = await loadWafraData();
   if (!data) return;

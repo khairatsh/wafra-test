@@ -1957,12 +1957,20 @@ header {
 /* ============================== Modals ============================== */
 
 .location-modal-overlay {
+  height: var(--app-vh, 100vh) !important;
+  height: var(--app-vh, 100dvh) !important;
+  overflow: hidden !important;
   background: rgba(17, 17, 17, .55) !important;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
 .location-modal-content {
+  max-height: calc(var(--app-vh, 100vh) - 2rem);
+  max-height: calc(var(--app-vh, 100dvh) - 2rem);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .55);
   border-radius: 26px !important;
   padding: 1.4rem !important;
@@ -1970,7 +1978,21 @@ header {
 }
 
 .modal-header {
+  flex: 0 0 auto;
   border-bottom-color: #F1F1EE;
+}
+
+.modal-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+.modal-footer {
+  flex: 0 0 auto;
+  background: #fff;
 }
 
 .modal-header h3 {
@@ -1995,6 +2017,8 @@ header {
 }
 
 .welcome-modal-content {
+  overflow-y: auto;
+  overscroll-behavior: contain;
   text-align: center;
 }
 
@@ -2725,6 +2749,8 @@ header {
 
   .location-modal-content {
     max-width: none !important;
+    max-height: calc(var(--app-vh, 100vh) - env(safe-area-inset-top, 0px) - .75rem);
+    max-height: calc(var(--app-vh, 100dvh) - env(safe-area-inset-top, 0px) - .75rem);
     border-radius: 26px 26px 0 0 !important;
     padding: 1.35rem 1.2rem calc(1.35rem + var(--safe-bottom)) !important;
     animation: sheetUp .32s cubic-bezier(.16, 1, .3, 1);
